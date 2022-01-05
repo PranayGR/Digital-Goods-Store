@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "name":"Iphone 13",
+        "brand": "Iphone",
+        "category_id":1,
+        "img":"https://ibb.co/S6r2Vtq"
+    },
+    {
+        "id":2,
+        "name":"Iphone 12",
+        "brand": "Iphone",
+        "category_id":1,
+        "img":"https://ibb.co/vvqqKYn"
+    },
+    {
+        "id":3,
+        "name":"Iphone 11",
+        "brand": "Iphone",
+        "category_id":1,
+        "img":"https://ibb.co/kBgNmV9"
+    },
+    {
+        "id":4,
+        "name":"Pavilion 14",
+        "brand": "HP",
+        "category_id":3,
+        "img":"https://ibb.co/vc63kGj"
+    },
+    {
+        "id":5,
+        "name":"Yoga",
+        "brand": "Lenovo",
+        "category_id":3,
+        "img":"https://ibb.co/qg4NfY8"
+    },
+    {
+        "id":6,
+        "name":"Bravia",
+        "brand": "Sony",
+        "category_id":2,
+        "img":"https://ibb.co/5hxkNN2"
+    },
+    {
+        "id":7,
+        "name":"Samsung TV",
+        "brand": "Samsung",
+        "category_id":2,
+        "img":"https://ibb.co/vxsQTqn"
+    }
+    
+]
