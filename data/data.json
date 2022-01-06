@@ -2,51 +2,90 @@
     {
         "id":1,
         "name":"Iphone 13",
-        "brand": "Iphone",
+        "brand": "Apple",
         "category_id":1,
-        "img":"https://ibb.co/S6r2Vtq"
+        "img":"https://ibb.co/S6r2Vtq",
+        "pricing": "79,900"
     },
     {
         "id":2,
         "name":"Iphone 12",
-        "brand": "Iphone",
+        "brand": "Apple",
         "category_id":1,
-        "img":"https://ibb.co/vvqqKYn"
+        "img":"https://ibb.co/vvqqKYn",
+        "pricing": "70,900"
     },
     {
         "id":3,
         "name":"Iphone 11",
-        "brand": "Iphone",
+        "brand": "Apple",
         "category_id":1,
-        "img":"https://ibb.co/kBgNmV9"
+        "img":"https://ibb.co/kBgNmV9",
+        "pricing": "54,900"
+
     },
     {
         "id":4,
         "name":"Pavilion 14",
         "brand": "HP",
         "category_id":3,
-        "img":"https://ibb.co/vc63kGj"
+        "img":"https://ibb.co/vc63kGj",
+        "pricing": "62,999",
+        "description": "HP Pavilion 14-EC0000AX Laptop (AMD Ryzen 5 5500U/16GB/512GB SSD/NVIDIA GeForce MX450 Graphics/Windows 10/FHD/MSO), 35.6 cm (14 inch)"
     },
     {
         "id":5,
         "name":"Yoga",
         "brand": "Lenovo",
         "category_id":3,
-        "img":"https://ibb.co/qg4NfY8"
+        "img":"https://ibb.co/qg4NfY8",
+        "pricing": "99,999",
+        "description": "HP Pavilion 14-EC0000AX Laptop (AMD Ryzen 5 5500U/16GB/512GB SSD/NVIDIA GeForce MX450 Graphics/Windows 10/FHD/MSO), 35.6 cm (14 inch)"
     },
     {
         "id":6,
         "name":"Bravia",
         "brand": "Sony",
         "category_id":2,
-        "img":"https://ibb.co/5hxkNN2"
+        "img":"https://ibb.co/5hxkNN2",
+        "pricing":"1,14,490",
+        "description": "Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV 65X80J (2021 Model)"
     },
     {
         "id":7,
         "name":"Samsung TV",
         "brand": "Samsung",
         "category_id":2,
-        "img":"https://ibb.co/vxsQTqn"
+        "img":"https://ibb.co/vxsQTqn",
+        "pricing":"47,490",
+        "description": "Samsung 108 cm (43 inch) Ultra HD (4K) LED Smart TV, 8 Series 43AU8200"
+    },
+    {
+        "id":8,
+        "name":"8 Pro",
+        "brand": "One Plus",
+        "category_id":1,
+        "img":"",
+        "pricing":"48,999",
+        "description": "OnePlus 8 Pro 128 GB, 8 GB RAM, Glacial Green, Smartphone"
+    },
+    {   "id":9,
+        "name":"9 Pro",
+        "brand": "One Plus",
+        "category_id":1,
+        "img":"",
+        "pricing":"64,999",
+        "description": "OnePlus 9 Pro 128 GB, 8 GB RAM, Pine Green, Smartphone"
     }
+    {
+        "id":10,
+        "name":"10 Pro",
+        "brand": "Redmi",
+        "category_id":1,
+        "img":"",
+        "pricing": "18,499",
+        "description": "Redmi Note 10 Pro 128 GB, 6 GB RAM, Dark Nebula, Smartphone"
+    }
+    
     
 ]
