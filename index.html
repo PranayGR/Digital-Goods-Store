@@ -52,7 +52,7 @@
                 <nav class="navbar navbar-light justify-content-between align-items-center">
                     <div class="container-fluid">
                       <a href="index.html" class="navbar-brand"><img src="images/logo-hor.png" alt="DigitalBox Logo"/></a>
-                      <form class="d-flex me-3">
+                      <form class="d-md-flex me-3 d-none">
                         <input class="form-control searchForm" type="search" placeholder="Search Products" aria-label="Search">
                         <button type="button" class="btn searchBtn">SEARCH</button>
                       </form>
@@ -61,12 +61,15 @@
                         <a href="#"><i class="fas fa-user me-3"></i></a>
                         <a href="#"><i class="fas fa-heart me-3"></i></a>
                       </div>
+                      <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <i class="fas fa-bars menuIcon"></i>
+                      </a>
                     </div>
                 </nav>
 
 
                 <!----------------- Nav-Links ---------------------->
-                <div class="container-fluid navLinksContainer">
+                <div class="container-fluid navLinksContainer d-md-block d-none">
                     <ul type="none" class="navLinks d-flex align-items-center">
                         <!-- <li><a href="#" class="navLink">CATEGORIES &nbsp; <i class="fas fa-bars"></i></a>
                              DropDown Item
@@ -74,13 +77,13 @@
                      id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
                       aria-labelledby="dropdownMenuButton1
                     -->
-                        <li class="dropdownList">
-                            <div class="dropdown">
+                        <li class="categoryList">
+                            <div class="dropdown categoryLink">
                                 <a href="#" class="navLink">CATEGORIES &nbsp; <i class="fas fa-bars"></i></a>
                                 
                                 
                             </div>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu categoryDropDown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -93,6 +96,31 @@
                     </ul>
                 </div>
             </div>
+
+
+            <!--------------- Bootstrap 5 OffCanvas Section ---------------->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--------------- Bootstrap 5 OffCanvas Section ---------------->
         </div>
     </main>
 

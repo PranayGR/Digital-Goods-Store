@@ -156,16 +156,21 @@ header{
     color: #252625;
 }
 
-.dropdownList{
+.categoryList{
     position: relative;
 }
 
-.dropdown-menu{
+.categoryDropDown{
     position: absolute !important;
     top: 100%;
     left:0;
 }
 
-.dropdownList:hover .dropdown-menu{
+.categoryList:hover .categoryDropDown{
     display: block;
+}
+
+.menuIcon{
+    font-size: 1.5rem;
+    color: #000000;
 }

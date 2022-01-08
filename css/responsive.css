@@ -1,5 +1,32 @@
+/*=============== For Extra Large Breakpoints ==================*/
+@media screen and (max-width:1200px) {
+
+}
+
+/*=============== For Large Breakpoints ==================*/
 @media screen and (max-width:992px) {
     .searchForm{
         width: 15rem;
     }
+}
+
+/*=============== For Medium Breakpoints ==================*/
+@media screen and (max-width:768px) {
+    header{
+        display: none;
+    }
+    
+    .userIcons{
+        display: none;
+    }
+}
+
+/*=============== For Small Breakpoints ==================*/
+@media screen and (max-width:576px) {
+    
+}
+
+/*=============== For Extra Small Breakpoints ==================*/
+@media screen and (max-width:0px) {
+    
 }
