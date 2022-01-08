@@ -17,6 +17,7 @@
 
     <!--------------- CSS Linked Files -------------------->
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
 
@@ -25,7 +26,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <!------- Currency Converter Menu --------->
-            <div class="currencySelectContainer d-flex align-items-center">
+            <div class="currencySelectContainer ms-3">
                 <select class="currencySelect">
                     <option value="rs">RS - &#8377</option>
                     <option value="usd">USD - &#36;</option>
@@ -36,7 +37,7 @@
 
 
             <!------------- Top Login/Signup Links -------------->
-            <div class="topLinks">
+            <div class="topLinks me-3">
                 <span><a href="#">Login</a> / <a href="#">Create Account</a></span>
             </div>
         </div>
@@ -50,8 +51,8 @@
                 <!---------------- NavBar ------------------->
                 <nav class="navbar navbar-light justify-content-between align-items-center">
                     <div class="container-fluid">
-                      <a class="navbar-brand"><img src="images/logo-hor.png" alt="DigitalBox Logo"/></a>
-                      <form class="d-flex">
+                      <a href="index.html" class="navbar-brand"><img src="images/logo-hor.png" alt="DigitalBox Logo"/></a>
+                      <form class="d-flex me-3">
                         <input class="form-control searchForm" type="search" placeholder="Search Products" aria-label="Search">
                         <button type="button" class="btn searchBtn">SEARCH</button>
                       </form>
@@ -66,7 +67,30 @@
 
                 <!----------------- Nav-Links ---------------------->
                 <div class="container-fluid navLinksContainer">
-
+                    <ul type="none" class="navLinks d-flex align-items-center">
+                        <!-- <li><a href="#" class="navLink">CATEGORIES &nbsp; <i class="fas fa-bars"></i></a>
+                             DropDown Item
+                        </li>
+                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                      aria-labelledby="dropdownMenuButton1
+                    -->
+                        <li class="dropdownList">
+                            <div class="dropdown">
+                                <a href="#" class="navLink">CATEGORIES &nbsp; <i class="fas fa-bars"></i></a>
+                                
+                                
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="navLink">HOME</a></li>
+                        <li><a href="#" class="navLink">SHOP</a></li>
+                        <li><a href="#" class="navLink">BLOG</a></li>
+                        <li><a href="#" class="navLink">CONTACT</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
