@@ -54,7 +54,7 @@ header{
     outline: none;
     box-shadow: none;
     appearance: none;
-    background-color: transparent;
+    background-color: var(--clr-bg-primary);
     color: #fff;
     padding: 0.5em 1em;
 }
@@ -67,8 +67,10 @@ header{
 .currencySelectContainer span{
     position: absolute;
     top: 12%;
-    right: 5%;
+    right: 3%;
+    color: #fff;
     pointer-events: none;
+    margin-right: 5px;
 }
 
 .currencySelectContainer:hover .currencySelect,.currencySelectContainer:hover span{
@@ -173,4 +175,35 @@ header{
 .menuIcon{
     font-size: 1.5rem;
     color: #000000;
+}
+
+
+            /*==================== Menu OffCanvas Section CSS =====================*/
+.offcanvas{
+    background-color: var(--clr-bg-secondary);
+}
+
+.resMenuSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.resNavLink{
+   padding: 0.5em 0em;
+   border-bottom: 1px solid;
+   color: #000 !important;
+   font-weight: var(--font-wght-medium);
+}
+
+.resNavLink:active{
+    color: rgb(80 79 79) !important;
+}
+
+.resNavLink > i{
+    margin-left: 1%;
+}
+
+.canvasFooter{
+    display: flex;
+    flex-direction: row;
 }
