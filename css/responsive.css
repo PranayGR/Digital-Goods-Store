@@ -15,6 +15,10 @@
     header{
         display: none;
     }
+
+    .navbar{
+        padding: 1em 0; 
+    }
     
     .userIcons{
         display: none;
