@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "Apple",
+        "category_id": "1"
+    },
+    {
+        "id": "2",
+        "name": "One Plus",
+        "category_id": "1"
+    },
+    {
+        "id": "3",
+        "name": "Redmi",
+        "category_id": "1"
+    },
+    {
+        "id": "4",
+        "name": "HP",
+        "category_id": "3"
+    },
+    {
+        "id": "5",
+        "name": "Lenovo",
+        "category_id": "3"
+    },
+    {
+        "id": "6",
+        "name": "Sony",
+        "category_id": "2"
+    },
+    {
+        "id": "7",
+        "name": "Samsung",
+        "category_id": "2"
+    },
+    {
+        "id": "8",
+        "name": "Dell",
+        "category_id": "3"
+    },
+    {
+        "id": "9",
+        "name": "Samsung",
+        "category_id": "1"
+    },
+    {
+        "id": "10",
+        "name": "Vivo",
+        "category_id": "1"
+    }
+]
