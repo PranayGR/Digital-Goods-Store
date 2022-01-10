@@ -2,6 +2,7 @@
     {
         "id":1,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/b1BmYvC",
@@ -15,6 +16,7 @@
     {
         "id":2,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/vvqqKYn",
@@ -28,6 +30,7 @@
     {
         "id":3,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/348QhHT",
@@ -41,6 +44,7 @@
     {
         "id":4,
         "name":"Pavilion 14",
+        "summary":"HP Pavilion 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Pavilion 15 packs 1TB of HDD storage.",
         "brand_id": "4",
         "category_id":3,
         "img1":"https://ibb.co/vc63kGj",
@@ -54,6 +58,7 @@
     {
         "id":5,
         "name":"Yoga",
+        "summary":"Lenovo IdeaPad Ideapad is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Lenovo IdeaPad Ideapad packs 2TB of HDD storage.",
         "brand_id": "5",
         "category_id":3,
         "img1":"https://ibb.co/QM5xdvG",
@@ -68,6 +73,7 @@
         "id":6,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -80,6 +86,7 @@
     {
         "id":7,
         "name":"Samsung TV",
+        "summary":"Samsung SMART TV is a television set with integrated Internet capabilities that offers more advanced computing ability and connectivity than a basic television set. SMART TV acts as an information appliance or the computer system from a handheld computer integrated within a television set unit. SMART TV often allows the user to install and run more advanced applications based on a specific platform.",
         "brand_id": "7",
         "category_id":2,
         "img1":"https://ibb.co/vxsQTqn",
@@ -93,6 +100,7 @@
     {
         "id":8,
         "name":"8 Pro",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/0rDNfm3",
@@ -105,6 +113,7 @@
     },
     {   "id":9,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/QMMLSb2",
@@ -118,6 +127,7 @@
     {
         "id":10,
         "name":"Note 10 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
         "brand_id": "3",
         "category_id":1,
         "img1":"https://ibb.co/YXjd0Sx",
@@ -131,6 +141,7 @@
     {
         "id":11,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/106CgSp",
@@ -144,6 +155,7 @@
     {
         "id":12,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/KcPdzyM",
@@ -157,6 +169,7 @@
     {
         "id":13,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/hLyxZ9m",
@@ -170,6 +183,7 @@
     {
         "id":14,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/hLyxZ9m",
@@ -183,6 +197,7 @@
     {
         "id":15,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/106CgSp",
@@ -196,6 +211,7 @@
     {
         "id":16,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/KcPdzyM",
@@ -209,6 +225,7 @@
     {
         "id":17,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/b1BmYvC",
@@ -222,6 +239,7 @@
     {
         "id":18,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/106CgSp",
@@ -235,6 +253,7 @@
     {
         "id":19,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/KcPdzyM",
@@ -248,6 +267,7 @@
     {
         "id":20,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/hLyxZ9m",
@@ -261,6 +281,7 @@
     {
         "id":21,
         "name":"Iphone 13",
+        "summary":"The iPhone 13 brings a few subtle updates compared to the iPhone 12, but you might find that the previous year's model offers better value. This phone has a bright, vibrant 6.1-inch OLED screen, but with only a 60Hz refresh rate and an annoying notch. The A15 Bionic SoC provides more than enough power for gaming and heavy apps. The cameras are versatile and deliver great quality for stills as well as video, plus you get the same Cinematic Mode and Photographic Styles features as on the more expensive iPhone 13 Pro. Battery life is good, but not great. iOS 15 keeps everything running smoothly. You can choose between 128GB, 256GB and 512GB of storage. The iPhone 13 mini is equivalent in terms of features and performance.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/b1BmYvC",
@@ -274,6 +295,7 @@
     {
         "id":22,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/C98g4nQ",
@@ -287,6 +309,7 @@
     {
         "id":23,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/DzZwWN9",
@@ -300,6 +323,7 @@
     {
         "id":24,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/m6dRD5P",
@@ -313,6 +337,7 @@
     {
         "id":25,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/xC7Y7nZ",
@@ -326,6 +351,7 @@
     {
         "id":26,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/0y17W1y",
@@ -339,6 +365,7 @@
     {
         "id":27,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/vvqqKYn",
@@ -352,6 +379,7 @@
     {
         "id":28,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/C98g4nQ",
@@ -365,6 +393,7 @@
     {
         "id":29,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/DzZwWN9",
@@ -378,6 +407,7 @@
     {
         "id":30,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/m6dRD5P",
@@ -391,6 +421,7 @@
     {
         "id":31,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/xC7Y7nZ",
@@ -404,6 +435,7 @@
     {
         "id":32,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/0y17W1y",
@@ -417,6 +449,7 @@
     {
         "id":31,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/vvqqKYn",
@@ -430,6 +463,7 @@
     {
         "id":32,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/C98g4nQ",
@@ -443,6 +477,7 @@
     {
         "id":33,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/DzZwWN9",
@@ -456,6 +491,7 @@
     {
         "id":34,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/m6dRD5P",
@@ -469,6 +505,7 @@
     {
         "id":35,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/xC7Y7nZ",
@@ -482,6 +519,7 @@
     {
         "id":36,
         "name":"Iphone 12",
+        "summary":"The iPhone 12 costs more than its predecessors but has a crisp new HDR OLED screen. It offers nearly all the feaures of the iPhone 12 Pro, minus some camera capabilities, but should be a good enough package for most users. Apple has returned to a flat aluminium frame but the iPhone 12 promises to be more durable thanks to its Ceramic Shield material on the front and IP68 rating. You get the A14 Bionic SoC which makes everyday use extremely smooth and responsive, but the device does get a bit warm when stressed. Battery life is good, but not great, and you'll be able to get through a full day. The iPhone 12 is relatively light and easy to handle. iOS 14 has some new customisation options and privacy features. You get two rear cameras - a wide-angle and an ultra-wide-angle one, which both have 12-megapixel sensors. Night mode now works across all cameras including the front one, and still shots as well as videos are remarkably sharp and detailed in the daytime as well as at night.",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/0y17W1y",
@@ -495,6 +533,7 @@
     {
         "id":37,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/tYDbKnW",
@@ -508,6 +547,7 @@
     {
         "id":38,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/4FNMDKc",
@@ -521,6 +561,7 @@
     {
         "id":39,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/TKLjXqp",
@@ -534,6 +575,7 @@
     {
         "id":40,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/tYDbKnW",
@@ -547,6 +589,7 @@
     {
         "id":41,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/4FNMDKc",
@@ -560,6 +603,7 @@
     {
         "id":42,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/TKLjXqp",
@@ -573,6 +617,7 @@
     {
         "id":43,
         "name":"Iphone 11",
+        "summary":"iPhone 11 is one of the top selling smartphones that is available at a starting price of Rs 49,999. You can buy this smartphone in Green, Red, Black, White, Yellow, and Purple color options in different storage options. This lightweight and easy to carry phone weighs approximately 194 grams. The dimensions of the phone measure 150.9 mm x 75.7 mm x 8.3 mm (height x width x thickness). ",
         "brand_id": "1",
         "category_id":1,
         "img1":"https://ibb.co/348QhHT",
@@ -587,6 +632,7 @@
         "id":44,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -600,6 +646,7 @@
         "id":45,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -613,6 +660,7 @@
         "id":46,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -626,6 +674,7 @@
         "id":47,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -639,6 +688,7 @@
         "id":48,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -652,6 +702,7 @@
         "id":49,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -665,6 +716,7 @@
         "id":50,
         "name":"Bravia",
         "brand_id": "6",
+        "summary":"Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc., a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym is Best Resolution Audio Visual Integrated Architecture. All Sony high-definition flat-panel LCD televisions in North America have carried the logo for BRAVIA since 2005. BRAVIA replaces the LCD WEGA which Sony used for their LCD TVs until Summer 2005 (early promotional photos exist of the first BRAVIA TVs still bearing the WEGA moniker).",
         "category_id":2,
         "img1":"https://ibb.co/5hxkNN2",
         "img2":"https://ibb.co/hy4Bp09",
@@ -677,6 +729,7 @@
     {
         "id":51,
         "name":"Samsung TV",
+        "summary":"Samsung SMART TV is a television set with integrated Internet capabilities that offers more advanced computing ability and connectivity than a basic television set. SMART TV acts as an information appliance or the computer system from a handheld computer integrated within a television set unit. SMART TV often allows the user to install and run more advanced applications based on a specific platform.",
         "brand_id": "7",
         "category_id":2,
         "img1":"https://ibb.co/vxsQTqn",
@@ -690,6 +743,7 @@
     {
         "id":52,
         "name":"Samsung TV",
+        "summary":"Samsung SMART TV is a television set with integrated Internet capabilities that offers more advanced computing ability and connectivity than a basic television set. SMART TV acts as an information appliance or the computer system from a handheld computer integrated within a television set unit. SMART TV often allows the user to install and run more advanced applications based on a specific platform.",
         "brand_id": "7",
         "category_id":2,
         "img1":"https://ibb.co/vxsQTqn",
@@ -703,6 +757,7 @@
     {
         "id":53,
         "name":"Samsung TV",
+        "summary":"Samsung SMART TV is a television set with integrated Internet capabilities that offers more advanced computing ability and connectivity than a basic television set. SMART TV acts as an information appliance or the computer system from a handheld computer integrated within a television set unit. SMART TV often allows the user to install and run more advanced applications based on a specific platform.",
         "brand_id": "7",
         "category_id":2,
         "img1":"https://ibb.co/vxsQTqn",
@@ -716,6 +771,7 @@
     {
         "id":54,
         "name":"Samsung TV",
+        "summary":"Samsung SMART TV is a television set with integrated Internet capabilities that offers more advanced computing ability and connectivity than a basic television set. SMART TV acts as an information appliance or the computer system from a handheld computer integrated within a television set unit. SMART TV often allows the user to install and run more advanced applications based on a specific platform.",
         "brand_id": "7",
         "category_id":2,
         "img1":"https://ibb.co/D9zy9nh",
@@ -728,6 +784,7 @@
     },
     {   "id":55,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/QMMLSb2",
@@ -740,6 +797,7 @@
     },
     {   "id":56,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/vcHdJmn",
@@ -752,6 +810,7 @@
     },
     {   "id":57,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/vcHdJmn",
@@ -764,6 +823,7 @@
     },
     {   "id":58,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/dmmQnbb",
@@ -776,6 +836,7 @@
     },
     {   "id":59,
         "name":"9 Pro",
+        "summary":"The OnePlus 9 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/dmmQnbb",
@@ -788,6 +849,7 @@
     },
     {   "id":60,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/dmmQnbb",
@@ -800,6 +862,7 @@
     },
     {   "id":61,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/FXZSWyy",
@@ -812,6 +875,7 @@
     },
     {   "id":62,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/Lhq9Yh8",
@@ -824,6 +888,7 @@
     },
     {   "id":63,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/dmmQnbb",
@@ -836,6 +901,7 @@
     },
     {   "id":64,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/FXZSWyy",
@@ -848,6 +914,7 @@
     },
     {   "id":65,
         "name":"9",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/Lhq9Yh8",
@@ -860,6 +927,7 @@
     },
     {   "id":66,
         "name":"8",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/pRNDGFR",
@@ -872,6 +940,7 @@
     },
     {   "id":67,
         "name":"8",
+        "summary":"The OnePlus 8 Pro has a similar design as the OnePlus 8 but with some subtle changes. Its display is actually rounded on the sides, rather than just having curved glass like on the 8. It has a pretty big 6.78-inch QHD+ (1440x3168-pixel) AMOLED panel, with a claimed high colour accuracy and HDR10+ support. New this year is the 120Hz refresh rate. The display is vibrant, colourful, and bright. The software experience is very similar to that of the OnPlus 8, with the exception of controls for some additions such as reverse wireless charging and video playback enhancement. The interface feels snappy, and OxygenOS in general runs very well. App and gaming performance is pretty solid. The stereo speakers sound great and the Dolby Atmos setting helps improve quality and spatial separation. The rear cameras get a big upgrade. The main 48-megapixel camera captures very good details nd colours under most lighting conditions. The wide-angle camera also shoots grat pictures and can even do extreme close-up photography. The telephoto camera is good too, and nearly on par with the Samsung Galaxy S20+ in terms of quality. Battery life is excellent but the big addtion here, is wireless charging. The 8 Pro also supports reverse wireless charging. ",
         "brand_id": "2",
         "category_id":1,
         "img1":"https://ibb.co/7Kcnm5w",
@@ -885,6 +954,7 @@
     {
         "id":68,
         "name":"Firefly G7 ZBook",
+        "summary":"HP Pavilion 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Pavilion 15 packs 1TB of HDD storage.",
         "brand_id": "4",
         "category_id":3,
         "img1":"https://ibb.co/b6TbZKq",
@@ -898,6 +968,7 @@
     {
         "id":69,
         "name":"15-DB1059AU",
+        "summary":"HP Pavilion 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Pavilion 15 packs 1TB of HDD storage.",
         "brand_id": "4",
         "category_id":3,
         "img1":"https://ibb.co/DQ08gK0",
@@ -911,6 +982,7 @@
     {
         "id":70,
         "name":"E13-ay0533AU Envy x360 Convertible",
+        "summary":"HP Pavilion 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Pavilion 15 packs 1TB of HDD storage.",
         "brand_id": "4",
         "category_id":3,
         "img1":"https://ibb.co/vk4VZFc",
@@ -924,6 +996,7 @@
     {
         "id":71,
         "name":"Pavilion Gaming",
+        "summary":"HP Pavilion 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Pavilion 15 packs 1TB of HDD storage.",
         "brand_id": "4",
         "category_id":3,
         "img1":"https://ibb.co/0KdGfY0",
@@ -937,6 +1010,7 @@
     {
         "id":72,
         "name":"GOIN IdeaPad",
+        "summary":"Lenovo IdeaPad Ideapad is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Lenovo IdeaPad Ideapad packs 2TB of HDD storage.",
         "brand_id": "5",
         "category_id":3,
         "img1":"https://ibb.co/30XgMsK",
@@ -950,6 +1024,7 @@
     {
         "id":73,
         "name":"Legion 5 Gaming",
+        "summary":"Lenovo IdeaPad Ideapad is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Lenovo IdeaPad Ideapad packs 2TB of HDD storage.",
         "brand_id": "5",
         "category_id":3,
         "img1":"https://ibb.co/txJxMJC",
@@ -963,6 +1038,7 @@
     {
         "id":74,
         "name":"IdeaPad Gaming",
+        "summary":"Lenovo IdeaPad Ideapad is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Lenovo IdeaPad Ideapad packs 2TB of HDD storage.",
         "brand_id": "5",
         "category_id":3,
         "img1":"https://ibb.co/jvsJGmC",
@@ -976,6 +1052,7 @@
     {
         "id":75,
         "name":"Legion 5 Gaming",
+        "summary":"Lenovo IdeaPad Ideapad is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Lenovo IdeaPad Ideapad packs 2TB of HDD storage.",
         "brand_id": "5",
         "category_id":3,
         "img1":"https://ibb.co/cwT5Q9S",
@@ -989,6 +1066,7 @@
     {
         "id":76,
         "name":"Dell 7390 XPS 13 Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/RNJjS49",
@@ -1002,6 +1080,7 @@
     {
         "id":77,
         "name":"Dell 9310 XPS Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/f2Knp95",
@@ -1015,6 +1094,7 @@
     {
         "id":78,
         "name":"Dell XPS 17 Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/d0nTxx0",
@@ -1028,6 +1108,7 @@
     {
         "id":79,
         "name":"Dell X15 R1 Alienware Gaming",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/jkVjRMD",
@@ -1041,6 +1122,7 @@
     {
         "id":80,
         "name":"Dell 5401 Vostro Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/Q87v3TG",
@@ -1054,6 +1136,7 @@
     {
         "id":81,
         "name":"Dell 3501 Inspiron 3000 Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/1n6xMFq",
@@ -1067,6 +1150,7 @@
     {
         "id":82,
         "name":"Dell Inspiron 15-G3 3500 Gaming Laptop",
+        "summary":"Dell is an American company that develops, sells, repairs, and supports computers and related products and services, and is owned by its parent company of Dell Technologies. Founded in 1984 by Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the United States (US) and around the world. Dell sells personal computers (PCs), servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its build-to-order or configure to order approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but with the acquisition in 2009 of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions[buzzword] for enterprise customers.",
         "brand_id": "8",
         "category_id":3,
         "img1":"https://ibb.co/Nt3ffJ6",
@@ -1080,6 +1164,7 @@
     {
         "id":83,
         "name":"Galaxy A22",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/MS9qXX0",
@@ -1093,6 +1178,7 @@
     {
         "id":84,
         "name":"Galaxy A51",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/hVGG2zf",
@@ -1106,6 +1192,7 @@
     {
         "id":84,
         "name":"Galaxy A51",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/6yrncCW",
@@ -1119,6 +1206,7 @@
     {
         "id":85,
         "name":"Galaxy M40",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/Hp2nWzH",
@@ -1132,6 +1220,7 @@
     {
         "id":86,
         "name":"Galaxy M51",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/B6Dq668",
@@ -1145,6 +1234,7 @@
     {
         "id":87,
         "name":"Galaxy A71",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/GcvRC2B",
@@ -1158,6 +1248,7 @@
     {
         "id":88,
         "name":"Galaxy A31",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/vYC1xLF",
@@ -1171,6 +1262,7 @@
     {
         "id":89,
         "name":"Galaxy S20 FE",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/MyTkhnR",
@@ -1184,6 +1276,7 @@
     {
         "id":90,
         "name":"Galaxy M02s",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/4FKzq01",
@@ -1197,6 +1290,7 @@
     {
         "id":91,
         "name":"GalaxyF62",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/1KvpPJK",
@@ -1210,6 +1304,7 @@
     {
         "id":92,
         "name":"GalaxyF62",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/1KvpPJK",
@@ -1223,6 +1318,7 @@
     {
         "id":93,
         "name":"Galaxy M02s",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/4FKzq01",
@@ -1236,6 +1332,7 @@
     {
         "id":94,
         "name":"Galaxy A31",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/vYC1xLF",
@@ -1249,6 +1346,7 @@
     {
         "id":95,
         "name":"Galaxy Note20",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/GWTnwwc",
@@ -1262,6 +1360,7 @@
     {
         "id":96,
         "name":"Galaxy Note20",
+        "summary":"Samsung Galaxy (Korean: 삼성 갤럭시, stylised as SΛMSUNG Galaxy since 2015,[2] previously stylised as Samsung GALAXY; abbreviated as SG) is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics. The product line includes the Samsung Galaxy S series of high-end smartphones, the Samsung Galaxy Tab series of tablets, the Samsung Galaxy Note series of tablets and phablets with the added functionality of a stylus, the foldable Samsung Galaxy Z series, and smartwatches including the first version of the Samsung Galaxy Gear, with later versions dropping the Galaxy branding, until the release of the Samsung Galaxy Watch in 2018. Samsung Galaxy devices use the Android operating system produced by Google, with a custom user interface called One UI (with previous versions being known as Samsung Experience and TouchWiz). However, the Galaxy TabPro S is the first Galaxy-branded Windows 10 device that was announced in CES 2016. The Galaxy Watch is the first Galaxy-branded smartwatch since the release of later iterations of the Gear smartwatch from 2014 to 2017.",
         "brand_id": "9",
         "category_id":1,
         "img1":"https://ibb.co/GWTnwwc",
@@ -1275,6 +1374,7 @@
     {
         "id":98,
         "name":"V Series V19",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/3TBd1tB",
@@ -1288,6 +1388,7 @@
     {
         "id":99,
         "name":"V Series V19",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/3TBd1tB",
@@ -1301,6 +1402,7 @@
     {
         "id":100,
         "name":"X50",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/k2pVbkd",
@@ -1314,6 +1416,7 @@
     {
         "id":101,
         "name":"X50",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/k2pVbkd",
@@ -1327,6 +1430,7 @@
     {
         "id":102,
         "name":"Y50",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/jh5MRfy",
@@ -1340,6 +1444,7 @@
     {
         "id":103,
         "name":"Y12",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/0skx6sV",
@@ -1353,6 +1458,7 @@
     {
         "id":104,
         "name":"Y12",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/0skx6sV",
@@ -1366,6 +1472,7 @@
     {
         "id":105,
         "name":"Y12",
+        "summary":"In an age where phones are packing in the pixels and adding more rear-facing lenses, the vivo V20 series stands out by reimagining the selfie camera experience. With industry-leading front-facing camera technology, it's here to help document your life, inspiring joy with a creative and simple design. Both the premium V20 Pro and the V20 pack 44MP main selfie shooters, while the budget-friendly V20 SE is no slouch with a 32MP lens. After years of gathering consumer feedback and insights, vivo has brought helpful features like Super Night Mode and Tripod Mode for impressive night shots and remarkable image stabilization. While the front-facing camera is the crown jewel of the V20 series, all three models sport powerful triple rear camera setups too — excellent for aspiring photographers.",
         "brand_id": "10",
         "category_id":1,
         "img1":"https://ibb.co/0skx6sV",
@@ -1375,19 +1482,131 @@
         "img5":"",
         "pricing": "10,990",
         "description": "Vivo Y12 64 GB, 3 GB RAM, Aurora Dawn, Smartphone"
+    },
+    {
+        "id":106,
+        "name":"Note 10 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "18,499",
+        "description": "Redmi Note 10 Pro 128 GB, 6 GB RAM, Glacial BLue, Smartphone"
+    },
+    {
+        "id":107,
+        "name":"Note 10 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "18,499",
+        "description": "Redmi Note 10 Pro 128 GB, 6 GB RAM, Vintage Bronze, Smartphone"
+    },
+    {
+        "id":108,
+        "name":"Note 10 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "18,499",
+        "description": "Redmi Note 10 Pro 128 GB, 6 GB RAM, Interstellar Black, Smartphone"
+    },
+    {
+        "id":109,
+        "name":"Note 10 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "18,499",
+        "description": "Redmi Note 10 Pro 128 GB, 6 GB RAM, Champange Gold, Smartphone"
+    },
+    {
+        "id":110,
+        "name":"Note 9 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/VCYMHPN",
+        "img2":"https://ibb.co/cQjfrzc",
+        "img3":"https://ibb.co/LnzM2DC",
+        "img4":"https://ibb.co/yYLxqk8",
+        "img5":"",
+        "pricing": "15,499",
+        "description": "Redmi Note 9 Pro 128 GB, 6 GB RAM, Dark Nebula, Smartphone"
+    },
+    {
+        "id":111,
+        "name":"Note 9 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "15,499",
+        "description": "Redmi Note 9 Pro 128 GB, 6 GB RAM, Glacial BLue, Smartphone"
+    },
+    {
+        "id":112,
+        "name":"Note 9 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "15,499",
+        "description": "Redmi Note 9 Pro 128 GB, 6 GB RAM, Vintage Bronze, Smartphone"
+    },
+    {
+        "id":113,
+        "name":"Note 9 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "15,499",
+        "description": "Redmi Note 9 Pro 128 GB, 6 GB RAM, Interstellar Black, Smartphone"
+    },
+    {
+        "id":114,
+        "name":"Note 9 Pro Max",
+        "summary":"Redmi is a subsidiary company owned by the Chinese electronics company Xiaomi. It was first announced in July 2013 as a budget smartphone line,[1] and became a separate sub-brand of Xiaomi in 2019 with entry-level and mid-range devices, while Xiaomi itself produces upper-range and flagship Mi phones. Redmi phones use the Xiaomi's MIUI user interface on top of Android. Models are divided into the entry-level Redmi, the mid-range Redmi Note, and the high-end Redmi K. In addition, the unrelated Mi A Android One series is also positioned in the similar market segment with Redmi devices, despite being part of the upper-range Xiaomi Mi lineup. The most significant difference from other Xiaomi smartphones is that they use less-expensive components and thus have lower prices while retaining higher specifications. In August 2014, The Wall Street Journal reported that in the second quarter of the 2014 fiscal year, Xiaomi had a market share of 4% of smartphone shipment rankings in China.[2] Redmi sales were attributed as a contributing factor toward this gain in shipment rankings.",
+        "brand_id": "3",
+        "category_id":1,
+        "img1":"https://ibb.co/YXjd0Sx",
+        "img2":"https://ibb.co/Dwx9rpX",
+        "img3":"https://ibb.co/gvTPHGc",
+        "img4":"",
+        "img5":"",
+        "pricing": "15,499",
+        "description": "Redmi Note 9 Pro 128 GB, 6 GB RAM, Champange Gold, Smartphone"
     }
 ]
-
-{
-    "id":,
-    "name":"",
-    "brand_id": "",
-    "category_id":,
-    "img1":"",
-    "img2":"",
-    "img3":"",
-    "img4":"",
-    "img5":"",
-    "pricing": "",
-    "description": ""
-}
