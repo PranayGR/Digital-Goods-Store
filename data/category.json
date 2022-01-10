@@ -17,6 +17,10 @@
     },
     {
         "id":5,
+        "name":"Smartwatches"
+    },
+    {
+        "id":6,
         "name":"Accesories"
     }
 ]

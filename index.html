@@ -17,6 +17,7 @@
 
     <!--------------- CSS Linked Files -------------------->
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
 <body>
@@ -105,26 +106,31 @@
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body resMenuSection">
-                  <!-- <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                  </div>
-                  <div class="dropdown mt-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                      Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </div> -->
+                  
                   <a href="#" class="resNavLink">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
+
+                  <div class="resCategoryDropdown"> 
+                    <a href="#"><i class="fas fa-mobile-alt categoryIcons"></i> Mobiles</a>
+                    <a href="#"><i class="fas fa-tv categoryIcons"></i> Televisions</a>
+                    <a href="#"><i class="fas fa-laptop categoryIcons"></i> Laptops</a>
+                    <a href="#"><i class="fas fa-camera categoryIcons"></i> Cameras</a>
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-smartwatch categoryIcons" viewBox="0 0 16 16">
+                        <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z"/>
+                        <path d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z"/>
+                      </svg>
+                      SmartWatches
+                    </a>
+                    <a href="#"><i class="fas fa-headphones categoryIcons"></i> Accesories</a>
+                  </div>
+
                   <a href="#" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
                   <a href="#" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
                   <a href="#" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
                   <a href="#" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
                   <a href="#" class="resNavLink">BLOG <i class="fas fa-angle-right"></i></a>
                   <a href="#" class="resNavLink">CONTACT <i class="fas fa-angle-right"></i></a>
+
                   <div class="canvasFooter mt-auto">
                     <div class="currencySelectContainer">
                       <select class="currencySelect">
@@ -142,6 +148,46 @@
               </div>
               <!--------------- Bootstrap 5 OffCanvas Section ---------------->
         </div>
+
+          <!------------- Offer Banner Carousel ----------------->
+          <div id="carouselExampleIndicators" class="carousel slide offerBanner" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/offerBanner1.png" class="d-block banners img-responsive" alt="Banner 1" data-bs-interval="2000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/offerBanner2.jpg" class="d-block banners img-responsive" alt="Banner 2" data-bs-interval="2000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/offerBanner3.jpg" class="d-block banners img-responsive" alt="Banner 3" data-bs-interval="2000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/offerBanner4.jpg" class="d-block banners img-responsive" alt="Banner 4" data-bs-interval="2000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/offerBanner5.jpg" class="d-block banners img-responsive" alt="Banner 5" data-bs-interval="2000">
+              </div>
+              <div class="carousel-item">
+                <img src="images/offerBanner6.png" class="d-block banners img-responsive" alt="Banner 6" data-bs-interval="2000">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
 
     <footer>

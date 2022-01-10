@@ -45,6 +45,10 @@ header{
 
             /*=================== Currency Converter Menu =======================*/
 
+.navbar{
+    margin-bottom: 0px;
+}
+
 .currencySelectContainer{
     position: relative;
 }
@@ -98,7 +102,7 @@ header{
 }
 
 .navbar{
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 .navbar-brand img{
@@ -108,6 +112,7 @@ header{
 .searchForm{
     border-radius: 5px 0px 0px 5px;
     width: 25rem;
+    box-shadow: none !important;
 }
 
 .searchBtn{
@@ -205,6 +210,22 @@ header{
 
 .resNavLink > i{
     margin-left: 1%;
+}
+
+.resCategoryDropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.resCategoryDropdown a{
+    font-size: 18px;
+    color: #000 !important;
+}
+
+.categoryIcons{
+    width: 40px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .canvasFooter{
