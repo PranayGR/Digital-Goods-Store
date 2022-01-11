@@ -23,10 +23,16 @@
     .userIcons{
         display: none;
     }
+    .banners{
+        height: 300px;
+    }
 }
 
 /*=============== For Small Breakpoints ==================*/
 @media screen and (max-width:576px) {
+    .navbar-brand img{
+        height: 2.5rem;
+    }
     
 }
 

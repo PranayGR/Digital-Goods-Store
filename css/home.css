@@ -1,8 +1,15 @@
+/*=============== Carousel Section CSS ================*/
+
 .offerBanner{
     margin-top: -16px;
+    margin-bottom: 60px;
 }
 
 .banners{
     height: 350px;
     width: 100%;
 }
+
+
+/*================== Features Section CSS ==================*/
+

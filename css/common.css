@@ -24,6 +24,12 @@
 
 body{
     margin: auto;
+
+
+    /* To Keep Footer At Bottom */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 a{
@@ -102,7 +108,7 @@ header{
 }
 
 .navbar{
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 .navbar-brand img{
@@ -138,7 +144,8 @@ header{
             /*=============== Nav-Link Section CSS =================*/
 
 .navLinksContainer{
-    background-color: #BFBFBF;
+    /* background-color: #BFBFBF; */
+    background-color: #615252;
     border-radius: 5px 5px 0 0;
     height: auto;
 }
@@ -160,7 +167,7 @@ header{
 }
 
 .navLinks > li:hover .navLink{
-    color: #252625;
+    color: #BFBFBF;
 }
 
 .categoryList{
@@ -232,3 +239,31 @@ header{
     display: flex;
     flex-direction: row;
 }
+
+
+/*================= Footer Section CSS ===================*/
+
+footer{
+    background-color: #F2F2F2;
+}
+
+.footerLogo img{
+    width: 100px;
+}
+
+.social h3{
+    margin: 30px 0;
+}
+
+.socialIcons i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.4s ease-out;
+}
+
+.socialIcons i:hover{
+    transform: scale(1.4);
+}
+
+/* Add Colors to hover */
+
