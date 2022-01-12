@@ -48,5 +48,15 @@
         "id": "10",
         "name": "Vivo",
         "category_id": "1"
+    },
+    {
+        "id": "11",
+        "name": "LG",
+        "category_id": "2"
+    },
+    {
+        "id": "12",
+        "name": "Toshiba",
+        "category_id": "2"
     }
 ]
