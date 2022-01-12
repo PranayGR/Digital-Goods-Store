@@ -131,6 +131,10 @@ header{
     font-size: 13px;
 }
 
+.searchBtn:hover{
+    color:#FFE4E3;
+}
+
 .userIcons a{
     font-size: 1.3rem;
     color: rgb(80 79 79);
@@ -244,15 +248,34 @@ header{
 /*================= Footer Section CSS ===================*/
 
 footer{
-    background-color: #F2F2F2;
+    background-color: var(--clr-bg-primary);
+    color: white;
+    padding-top: 50px;
+}
+
+footer h4{
+    margin-bottom: 20px;
+    color: #CFA716;
 }
 
 .footerLogo img{
     width: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom:30px;
 }
 
-.social h3{
-    margin: 30px 0;
+.footerLogo a{
+    display: block;
+    color: #fff;
+}
+
+.social p{
+    font-size: 1.1rem;
+}
+
+.social i{
+    margin-right: 10px;
 }
 
 .socialIcons i{
@@ -265,5 +288,37 @@ footer{
     transform: scale(1.4);
 }
 
-/* Add Colors to hover */
+.fa-facebook-f:hover{
+    color: 	#4267B2;
+}
 
+.fa-instagram:hover{
+    color: #8a3ab9;
+}
+
+.fa-twitter:hover{
+    color:#00acee;
+}
+
+.fa-youtube:hover{
+    color: #FF0000;
+}
+
+
+.newsletter p{
+    margin-bottom: 20px;
+    color: #a8a8a8;
+}
+
+.btnSubscribe{
+    background-color: var(--clr-primary);
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+}
+
+.btnSubscribe:hover{
+    color:#FFE4E3;
+}
