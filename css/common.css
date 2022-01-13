@@ -36,8 +36,21 @@ a{
     text-decoration: none;
 }
 
+.primaryBtn{
+    background-color: var(--clr-primary);
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+}
+
+.primaryBtn:hover{
+    color:#FFE4E3;
+}
+
 .container{
-    max-width: min(95%,1500px);
+    max-width: min(90%,1500px);
 }
 
 /*================== Header CSS ======================*/
@@ -122,17 +135,7 @@ header{
 }
 
 .searchBtn{
-    background-color: var(--clr-primary);
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    border-radius: 0px 5px 5px 0px;
-    color: #fff;
     font-size: 13px;
-}
-
-.searchBtn:hover{
-    color:#FFE4E3;
 }
 
 .userIcons a{
@@ -251,11 +254,21 @@ footer{
     background-color: var(--clr-bg-primary);
     color: white;
     padding-top: 50px;
+    margin-top: 500px;
 }
 
 footer h4{
     margin-bottom: 20px;
     color: #CFA716;
+}
+
+/* .footerLogo,.social{
+    border-right: 1px solid #fff;
+} */
+
+
+.footerLogo,.social,.newsletter{
+    margin-bottom: 30px;
 }
 
 .footerLogo img{
@@ -268,6 +281,7 @@ footer h4{
 .footerLogo a{
     display: block;
     color: #fff;
+    text-align:left;
 }
 
 .social p{
@@ -308,17 +322,4 @@ footer h4{
 .newsletter p{
     margin-bottom: 20px;
     color: #a8a8a8;
-}
-
-.btnSubscribe{
-    background-color: var(--clr-primary);
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    border-radius: 0px 5px 5px 0px;
-    color: #fff;
-}
-
-.btnSubscribe:hover{
-    color:#FFE4E3;
 }

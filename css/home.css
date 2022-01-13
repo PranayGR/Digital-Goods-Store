@@ -11,5 +11,81 @@
 }
 
 
-/*================== Features Section CSS ==================*/
+/*================== Deals of the Day Section CSS ==================*/
+
+/* .featureSection h4{
+    text-align:center;
+}
+
+.featureSection h4::after{
+    content:"";
+    width: 100%;
+    display:block;
+    background-color: blue;
+    height: 2px;
+} */
+
+
+
+.dealImage{
+    background-image: url(../images/dealImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    position: relative;
+    box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.3);
+}
+
+.dealHeading{
+    color: white;
+    padding-top: 50px;
+}
+
+.dealHeading::after{
+    content: "";
+    display:block;
+    margin: 0 auto;
+    background-color:white;
+    width: 200px;
+    height: 3px;
+}
+
+.dealSection{
+    z-index: 2;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+
+.dealTimer ul{
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.dealTimer span{
+    font-size: 40px;
+    border-radius: 50%;
+    /* background-color: rgb(146, 141, 141); */
+    border: 1px solid #bbb;
+    margin-right: 15px;
+}
+
+.dealTimer li{
+    font-size: 20px;
+    font-weight: var(--font-wght-medium);
+}
+
+.dealProductImage{
+    height: 400px;
+}
+
+.btnDeal{
+    border-radius: 40px;
+}
 
