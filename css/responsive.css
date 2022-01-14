@@ -8,6 +8,14 @@
     .searchForm{
         width: 15rem;
     }
+    .dealTimer ul{
+        display:flex;
+        justify-content:space-between;
+    }
+    .dealSection{
+        top: 100%;
+        left: 50%;  
+    }
 }
 
 /*=============== For Medium Breakpoints ==================*/
@@ -25,6 +33,10 @@
     }
     .banners{
         height: 300px;
+    }
+    .dealSection{
+        top: 130%;
+        left: 50%;  
     }
 }
 
