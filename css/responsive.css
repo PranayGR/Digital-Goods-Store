@@ -5,12 +5,17 @@
 
 /*=============== For Large Breakpoints ==================*/
 @media screen and (max-width:992px) {
+    .navbar-brand img{
+        height: 2.5rem;
+    }
     .searchForm{
         width: 15rem;
     }
     .dealTimer ul{
         display:flex;
         justify-content:space-between;
+        padding-top: 20px;
+        text-align:center;
     }
     .dealSection{
         top: 100%;
@@ -54,7 +59,7 @@
 /*=============== For Small Breakpoints ==================*/
 @media screen and (max-width:576px) {
     .navbar-brand img{
-        height: 2.5rem;
+        height: 2.3rem;
     }
     .dealTimer span{
         font-size: 35px;

@@ -123,6 +123,8 @@ header{
 
 .navbarContainer{
     background-color: var(--clr-bg-secondary);
+    /* background-color: #00C6CF; */
+    /* background-color: #36c8ce; */
 }
 
 .navbar{
@@ -158,6 +160,7 @@ header{
 .navLinksContainer{
     /* background-color: #BFBFBF; */
     background-color: #615252;
+    /* background-color:#1EB9A8; */
     border-radius: 5px 5px 0 0;
     height: auto;
 }
@@ -217,10 +220,11 @@ header{
 }
 
 .resNavLink{
-   padding: 0.5em 0em;
-   border-bottom: 1px solid;
-   color: #000 !important;
-   font-weight: var(--font-wght-medium);
+    font-size: 22px;
+    padding: 0.5em 0em;
+    border-bottom: 1px solid;
+    color: #000 !important;
+    font-weight: var(--font-wght-medium);
 }
 
 .resNavLink:active{
@@ -237,7 +241,7 @@ header{
 }
 
 .resCategoryDropdown a{
-    font-size: 18px;
+    font-size: 23px;
     color: #000 !important;
 }
 

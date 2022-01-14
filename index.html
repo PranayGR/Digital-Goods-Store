@@ -53,7 +53,7 @@
                 <nav class="navbar navbar-light justify-content-between align-items-center">
                     <div class="container-fluid">
                       <a href="index.html" class="navbar-brand"><img src="images/logo-hor.png" alt="DigitalBox Logo"/></a>
-                      <form class="d-md-flex me-3 d-none">
+                      <form class="d-md-flex d-none">
                         <input class="form-control searchForm" type="search" placeholder="Search Products" aria-label="Search">
                         <button type="button" class="btn primaryBtn">SEARCH</button>
                       </form>
@@ -140,8 +140,15 @@
           </div>
 
 
+          <!--------------------- Category Section ---------------------->
+
+          <div class="container productSection"> 
+            <h3 class="text-center categoryHeading">EXPLORE OUR RANGE OF PRODUCTS</h3>
+
+          </div>
+
       
-          
+          <!------------- Deal Of the Day Section ----------------->
           <div class="container-fluid dealImage">
             <h3 class="text-center dealHeading">DEAL OF THE DAY</h3>
             <div class="container dealSection">
@@ -149,7 +156,7 @@
                 <div class="col-lg-3 dealTimer">
                   <ul>
                     <li><span>00</span> DAYS</li>
-                    <li><span>00</span> HOUR</li>
+                    <li><span>00</span> HOURS</li>
                     <li><span>00</span> MINS</li>
                     <li><span>00</span> SECS</li>
                   </ul>
@@ -176,6 +183,11 @@
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body resMenuSection">
+
+              <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search Products" aria-label="Search">
+                <button type="button" class="btn primaryBtn"><i class="fas fa-search"></i></button>
+              </form>
               
               <a href="#" class="resNavLink">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
 
@@ -201,7 +213,7 @@
               <a href="#" class="resNavLink">BLOG <i class="fas fa-angle-right"></i></a>
               <a href="#" class="resNavLink">CONTACT <i class="fas fa-angle-right"></i></a>
 
-              <div class="canvasFooter mt-auto">
+              <div class="canvasFooter mt-0">
                 <div class="currencySelectContainer">
                   <select class="currencySelect">
                       <option value="rs">RS - &#8377</option>
