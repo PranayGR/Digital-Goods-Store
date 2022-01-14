@@ -32,6 +32,9 @@ body{
     grid-template-rows: auto 1fr auto;
 }
 
+
+/*==================== Common Properties =======================*/
+
 a{
     text-decoration: none;
 }
@@ -52,6 +55,8 @@ a{
 .container{
     max-width: min(90%,1500px);
 }
+
+
 
 /*================== Header CSS ======================*/
 

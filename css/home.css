@@ -11,21 +11,9 @@
 }
 
 
-/*================== Deals of the Day Section CSS ==================*/
-
-/* .featureSection h4{
-    text-align:center;
-}
-
-.featureSection h4::after{
-    content:"";
-    width: 100%;
-    display:block;
-    background-color: blue;
-    height: 2px;
-} */
 
 
+/*=================== Deal of the Day Section ===================*/
 
 .dealImage{
     background-image: url(../images/dealImage.jpg);
@@ -88,4 +76,3 @@
 .btnDeal{
     border-radius: 40px;
 }
-
