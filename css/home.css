@@ -26,10 +26,28 @@
     background-color: #00C6CF;
 }
 
+.productSection .row{
+    background-color:#F7F7F7;
+}
+
+.categoryImg{
+    margin-block: 50px;
+}
+
+.categoryImg img{
+    height: 200px;
+}
+
+.categoryImg p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: var(--font-wght-medium);
+}
+
 
 /*=================== Deal of the Day Section ===================*/
 
-.dealImage{
+/* .dealImage{
     background-image: url(../images/dealImage.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -50,15 +68,25 @@
     background-color:white;
     width: 200px;
     height: 3px;
+} */
+
+.dealHeading::after{
+    content:"";
+    display:block;
+    width: 220px;
+    margin-inline: auto;
+    height: 5px;
+    background-color: #00C6CF;
 }
 
 .dealSection{
-    z-index: 2;
+    /* z-index: 2;
     position: absolute;
     top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     /* height: 450px; */
+    margin-top: 200px;
     background-color: white;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
     padding: 30px;

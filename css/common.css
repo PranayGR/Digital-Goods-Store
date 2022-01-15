@@ -25,7 +25,6 @@
 body{
     margin: auto;
 
-
     /* To Keep Footer At Bottom */
     min-height: 100vh;
     display: grid;
@@ -46,10 +45,14 @@ a{
     box-shadow: none !important;
     border-radius: 0px 5px 5px 0px;
     color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
 .primaryBtn:hover{
-    color:#FFE4E3;
+    /* color:#FFE4E3; */
+    background-color:transparent !important;
+    outline: 1px solid var(--clr-primary) !important;
+    color: var(--clr-primary);
 }
 
 .container{
@@ -166,7 +169,7 @@ header{
 }
 
 .navLinks > li{
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     cursor: pointer;
 }
 
