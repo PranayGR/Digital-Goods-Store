@@ -58,5 +58,15 @@
         "id": "12",
         "name": "Toshiba",
         "category_id": "2"
+    },
+    {
+        "id":"13",
+        "name": "Olympus",
+        "category_id": "4"
+    },
+    {
+        "id":"14",
+        "name": "Nikon",
+        "category_id": "4"
     }
 ]
