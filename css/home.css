@@ -119,3 +119,36 @@
 .btnDeal{
     border-radius: 40px;
 }
+
+
+
+/*=================== Promise Section ===================*/
+
+.promise{
+    margin: 50px 0;
+    border: 2px solid rgba(0,0,0,0.1);
+    width: 320px;
+    height: 100px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+}
+
+.promise i{
+    font-size: 30px;
+    color: var(--clr-primary);
+    width: 30%;
+    text-align: center;
+}
+
+.promise span{
+    display: block
+}
+
+.promiseHeading{
+    font-size: 19px;
+    font-weight: var(--font-wght-bold);
+    text-transform: uppercase;
+}
+
+.promiseSubheading{
+    font-weight: var(--font-wght-light);
+}
