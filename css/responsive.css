@@ -1,6 +1,6 @@
 /*=============== For Extra Large Breakpoints ==================*/
 @media screen and (max-width:1200px) {
-
+    
 }
 
 /*=============== For Large Breakpoints ==================*/
@@ -63,6 +63,9 @@
     .categoryImg img{
         height: 150px;
     }
+    .promise{
+        width: 240px;
+    }
 }
 
 /*=============== For Small Breakpoints ==================*/
@@ -78,6 +81,12 @@
     }
     .categoryHeading::after{
         width: 80%;
+    }
+    .promise{
+        width: 220px;
+    }
+    .promise i{
+        width: 25%;
     }
 }
 

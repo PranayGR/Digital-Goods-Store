@@ -8,13 +8,35 @@
 .banners{
     height: 350px;
     width: 100%;
+    cursor:pointer;
 }
 
+/*=================== Features Section CSS =====================*/
+.featureHeading::after{
+    content:"";
+    display:block;
+    width: 290px;
+    margin-inline: auto;
+    height: 5px;
+    background-color: #00C6CF;
+}
 
-/*=================== Category Section ====================*/
+.featureCard{
+    width: 250px;
+    height: 300px;
+    border: 1px solid red;
+}
 
-.categoryHeading{
-    font-weight: var(--font-wght-bold);
+/* .featureCardContainer{
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+} */
+
+
+/*=================== Category Section CSS ====================*/
+.productSection{
+    margin-top: 70px;
 }
 
 .categoryHeading::after{
@@ -45,7 +67,7 @@
 }
 
 
-/*=================== Deal of the Day Section ===================*/
+/*=================== Deal of the Day Section CSS ===================*/
 
 /* .dealImage{
     background-image: url(../images/dealImage.jpg);
@@ -86,10 +108,11 @@
     left: 50%; */
     /* transform: translate(-50%, -50%); */
     /* height: 450px; */
-    margin-top: 200px;
+    margin-block: 70px;
     background-color: white;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
     padding: 30px;
+
 }
 
 .dealTimer ul{
@@ -122,14 +145,15 @@
 
 
 
-/*=================== Promise Section ===================*/
+/*=================== Promise Section CSS ===================*/
 
 .promise{
-    margin: 50px 0;
     border: 2px solid rgba(0,0,0,0.1);
-    width: 320px;
+    width: 300px;
     height: 100px;
-    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 .promise i{
