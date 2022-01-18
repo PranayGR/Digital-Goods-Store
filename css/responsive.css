@@ -88,6 +88,9 @@
     .promise i{
         width: 25%;
     }
+    .menuOffcanvas{
+        max-width: 100%;
+    }
 }
 
 /*=============== For Extra Small Breakpoints ==================*/

@@ -206,10 +206,25 @@ header{
     position: absolute !important;
     top: 100%;
     left:0;
+    background-color: var(--clr-bg-secondary);
+    border-radius:0;
 }
 
 .categoryList:hover .categoryDropDown{
     display: block;
+}
+
+.categoryDropDown .categoryItem{
+    border-bottom: 1px solid rgb(212, 205, 205);
+}
+
+.categoryDropDown .categoryItem i{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.categoryDropDown .categoryItem:hover i{
+    opacity: 1;
 }
 
 .menuIcon{
