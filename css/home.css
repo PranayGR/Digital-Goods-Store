@@ -27,12 +27,6 @@
     border: 1px solid red;
 }
 
-/* .featureCardContainer{
-    overflow: hidden;
-    height: 200px;
-    width: 100%;
-} */
-
 
 /*=================== Category Section CSS ====================*/
 .productSection{
@@ -69,29 +63,6 @@
 
 /*=================== Deal of the Day Section CSS ===================*/
 
-/* .dealImage{
-    background-image: url(../images/dealImage.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 500px;
-    position: relative;
-    box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.3);
-}
-
-.dealHeading{
-    color: white;
-    padding-top: 50px;
-}
-
-.dealHeading::after{
-    content: "";
-    display:block;
-    margin: 0 auto;
-    background-color:white;
-    width: 200px;
-    height: 3px;
-} */
-
 .dealHeading::after{
     content:"";
     display:block;
@@ -102,12 +73,6 @@
 }
 
 .dealSection{
-    /* z-index: 2;
-    position: absolute;
-    top: 90%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* height: 450px; */
     margin-block: 70px;
     background-color: white;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
@@ -117,14 +82,11 @@
 
 .dealTimer ul{
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
 }
 
 .dealTimer span{
     font-size: 40px;
     border-radius: 50%;
-    /* background-color: rgb(146, 141, 141); */
     border: 1px solid #bbb;
     margin-right: 3%;
     font-weight: var(--font-wght-bold);

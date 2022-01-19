@@ -20,6 +20,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -171,9 +172,7 @@ header{
             /*=============== Nav-Link Section CSS =================*/
 
 .navLinksContainer{
-    /* background-color: #BFBFBF; */
     background-color: #615252;
-    /* background-color:#1EB9A8; */
     border-radius: 5px 5px 0 0;
     height: auto;
 }
@@ -298,11 +297,6 @@ footer h4{
     margin-bottom: 20px;
     color: #CFA716;
 }
-
-/* .footerLogo,.social{
-    border-right: 1px solid #fff;
-} */
-
 
 .footerLogo,.social,.newsletter{
     margin-bottom: 30px;
