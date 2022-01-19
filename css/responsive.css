@@ -66,6 +66,9 @@
     .promise{
         width: 240px;
     }
+    .weatherSection{
+        display: none;
+    }
 }
 
 /*=============== For Small Breakpoints ==================*/

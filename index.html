@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <script src="js/common.js"></script>
 </head>
 <body>
 
@@ -48,7 +50,7 @@
 
     <!----------------- Main Section -------------------->
     <main>
-        <div class="container-fluid navbarContainer">
+        <div class="container-fluid navbarContainer position-relative">
             <div class="container">
                 <!---------------- NavBar ------------------->
                 <nav class="navbar navbar-light justify-content-between align-items-center">
@@ -92,6 +94,11 @@
                         <li><a href="#" class="navLink">CONTACT</a></li>
                     </ul>
                 </div>
+            </div>
+
+            <!-------------- Weather Section ---------------->
+            <div class= "weatherSection position-absolute">
+              <span id="weatherImage"></span><span id="temperature"></span>
             </div>
         </div>
 
@@ -349,5 +356,12 @@
           </div>
         </div>
     </footer>
+
+
+    <script>
+        window.onload=geolocation();
+    </script>
+
+    
 </body>
 </html>

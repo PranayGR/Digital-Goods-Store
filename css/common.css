@@ -284,6 +284,23 @@ header{
 }
 
 
+.weatherSection{
+    background-color: #dbdbdb;
+    width: 100px;
+    height: 35px;
+    top:0;
+    right:0;
+    border-radius: 0px 0px 0 5px;
+}
+
+#weatherImage img{
+    height: 100%;
+}
+
+#temperature{
+    font-weight: var(--font-wght-bold);
+}
+
 /*================= Footer Section CSS ===================*/
 
 footer{
