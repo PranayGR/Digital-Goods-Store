@@ -11,7 +11,6 @@ function geolocation(){
 showPosition = (data) => {
     let x = document.getElementById('weatherImage');
     let y = document.getElementById('temperature');
-    console.log(data.coords.latitude,data.coords.longitude);
 
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${data.coords.latitude}&lon=${data.coords.longitude}&mode=json&units=metric&cnt=1&APPID=2b5ab3bc294fc9f57cd2c0e0acaa541a`;
 
