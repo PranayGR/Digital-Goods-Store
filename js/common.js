@@ -1,5 +1,4 @@
 // Geolocation + Weather JS
-
 function geolocation(){
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -21,3 +20,30 @@ showPosition = (data) => {
             y.innerText = `${data.main.temp}\u00B0C`;
     })
 }
+
+// Dropdown Open on Click
+document.getElementById('opencategories').addEventListener('click', function() {
+    let collapsableCategory = document.getElementById('collapsableCategory');
+
+    if (collapsableCategory.style.display == 'none') {
+        collapsableCategory.style.display = 'flex';
+    } else {
+        collapsableCategory.style.display = 'none';
+    }
+})
+
+
+
+// Coupon Open Function
+
+window.addEventListener('load', function(){
+    let coupon = document.getElementById('couponPopup');
+
+    coupon.style.display = 'block';
+})
+
+function closePopup(){
+    let coupon = document.getElementById('couponPopup');
+
+    coupon.style.display = 'none';   
+};

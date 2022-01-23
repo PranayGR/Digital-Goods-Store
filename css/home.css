@@ -138,3 +138,68 @@
 .promiseSubheading{
     font-weight: var(--font-wght-light);
 }
+
+/*================ Coupon Popup CSS =================*/
+.coupon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    background-image: url(../images/couponbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5), inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.couponHeading{
+    font-size: 5rem;
+    color: #fff;
+    line-height: 2.8rem;
+}
+
+.couponHeading span{
+    font-size: 0.6em;
+}
+
+.couponEmail{
+    width: 35%;
+}
+
+.couponEmail::placeholder{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btnCoupon{
+    background-color: #ea174b;
+    color: #fff;
+    width: 35%;
+    font-weight: var(--font-wght-bold);
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.btnCoupon:hover{
+    outline: 1px solid #fff;
+    outline-offset: -1px;
+    color: #ea174b;
+    background-color: transparent;
+}
+
+.couponCloseLink a{
+    color: rgba(251, 200, 85,0.8);
+}
+
+.couponCloseLink:hover a{
+    color: rgba(251, 200, 85,1);
+    text-decoration: underline;
+}
+
+.couponCloseBtn{
+    font-size: 20px;
+    color:#ea174b;
+    cursor: pointer;
+}

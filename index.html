@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
-    <!---------- Javascript Links ------------->
-    <script src="js/common.js"></script>
+    
     
 </head>
 <body>
@@ -188,7 +187,6 @@
               </div>
             </div>
           </div>
-
       
           <!------------- Deal Of the Day Section ----------------->
             <div class="container dealSection">
@@ -247,9 +245,7 @@
             </div>
           </div>
           
-
-
-          <!--------------- Bootstrap 5 OffCanvas Section End (Visible Only in Medium Devices) ---------------->
+          <!---- Bootstrap 5 OffCanvas Section End (Visible Only in Medium Devices) ------>
           <div class="offcanvas offcanvas-end menuOffcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
@@ -262,9 +258,9 @@
                 <button type="button" class="btn primaryBtn"><i class="fas fa-search"></i></button>
               </form>
               
-              <a href="#" class="resNavLink">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
+              <a href="#" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
 
-              <div class="resCategoryDropdown"> 
+              <div class="resCategoryDropdown" id="collapsableCategory"> 
                 <a href="#"><i class="fas fa-mobile-alt categoryIcons"></i> Mobiles</a>
                 <a href="#"><i class="fas fa-tv categoryIcons"></i> Televisions</a>
                 <a href="#"><i class="fas fa-laptop categoryIcons"></i> Laptops</a>
@@ -302,6 +298,21 @@
             </div>
           </div>
           <!--------------- Bootstrap 5 OffCanvas Section End ---------------->
+
+
+          <!------------------ Coupon Popup Section -------------------->
+          <div class="coupon" id="couponPopup">
+            <h1 class="text-center mt-5 couponHeading">WANT <br/><span>20% OFF?</span></h1>
+            <p class="text-center mt-3 mb-5 text-white">Subscribe now to get free discount coupon code. Don't miss Out!</p>
+            <form>
+              <input type="email" class="form-control couponEmail mx-auto" placeholder="Enter your email address"/>
+              <button class="btn btnCoupon text-center mx-auto d-block mt-2 mb-4">SUBSCRIBE</button>
+            </form>
+            <p class="text-center couponCloseLink" onclick="closePopup()"><a href="javascript:void(0)">Enter Site without Coupon</a></p>
+            <span onclick="closePopup()" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-light couponCloseBtn">
+              &times;
+            </span>
+          </div>
     </main>
 
     <footer>
@@ -360,6 +371,9 @@
     </footer>
 
 
+
+    <!---------- Javascript Links ------------->
+    <script src="js/common.js"></script>
     <script>
         window.onload=geolocation();
     </script>

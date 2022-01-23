@@ -263,8 +263,9 @@ header{
 }
 
 .resCategoryDropdown{
-    display: flex;
+    display: none;
     flex-direction: column;
+    transition: 0.3s;
 }
 
 .resCategoryDropdown a{
@@ -284,6 +285,8 @@ header{
 }
 
 
+
+/*============== Weather App Section ===============*/
 .weatherSection{
     background-color: #dbdbdb;
     width: 100px;
