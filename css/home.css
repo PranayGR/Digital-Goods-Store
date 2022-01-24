@@ -141,7 +141,7 @@
 
 /*================ Coupon Popup CSS =================*/
 .coupon{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -149,9 +149,10 @@
     background-image: url(../images/couponbg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    z-index: 2;
+    z-index: 1000;
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5), inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
     display: none;
+    border-radius: 15px;
 }
 
 .couponHeading{

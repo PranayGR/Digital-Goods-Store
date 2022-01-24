@@ -1,0 +1,14 @@
+.userSection{
+    height: 500px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+    margin-top: 40px;
+    max-width: 70%; 
+}
+
+.userSection .row{
+    height: 100%;
+}
+
+.userOption{
+    border: 1px solid red;
+}

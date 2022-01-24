@@ -1,16 +1,27 @@
 /*=============== For Extra Large Breakpoints ==================*/
 @media screen and (max-width:1200px) {
-    
+
+    /*========= home.css ===========*/
+    /* Coupon Section */
+    .coupon{
+        width: 50%;
+    }
 }
 
 /*=============== For Large Breakpoints ==================*/
 @media screen and (max-width:992px) {
+
+    /*========== Common.css ===========*/
+    /* Navbar */
     .navbar-brand img{
         height: 2.5rem;
     }
     .searchForm{
         width: 15rem;
     }
+
+    /*============ home.css ==========*/
+    /* Deal Section */
     .dealTimer ul{
         display:flex;
         justify-content:space-between;
@@ -25,10 +36,23 @@
     .dealProductImage{
         height: 350px;
     }
+
+    /* Coupon Section */
+    .coupon{
+        width: 60%;
+    }
+    .couponEmail{
+        width: 50%;
+    }
+    .btnCoupon{
+        width: 50%;
+    }
 }
 
 /*=============== For Medium Breakpoints ==================*/
 @media screen and (max-width:768px) {
+
+    /*======= common.css ========*/
     header{
         display: none;
     }
@@ -40,9 +64,14 @@
     .userIcons{
         display: none;
     }
+
+    /*======= home.css ========*/
+    /* Carousel Section */
     .banners{
         height: 300px;
     }
+
+    /* Deal Section */
     .dealHeading{
         padding-top: 30px;
     }
@@ -57,42 +86,74 @@
     .dealDetails{
         padding: 30px;
     }
+
+    /* Categories Section */
     .categoryHeading::after{
         width: 420px;
     }
     .categoryImg img{
         height: 150px;
     }
+
+    /* Promise Section */
     .promise{
         width: 240px;
     }
+
+    /* Weather Section */
     .weatherSection{
         display: none;
     }
 }
 
+
 /*=============== For Small Breakpoints ==================*/
 @media screen and (max-width:576px) {
+
+    /*======= common.css ========*/
     .navbar-brand img{
         height: 2.3rem;
     }
+
+    /*======= home.css ========*/
+    /* Deal Section */
     .dealTimer span{
         font-size: 35px;
     }
     .dealTimer li{
         font-size: 16px;
     }
+
+    /* category Section */
     .categoryHeading::after{
         width: 80%;
     }
+
+    /* Promise Section  */
     .promise{
         width: 220px;
     }
     .promise i{
         width: 25%;
     }
+
+    /* Offcanvas Section */
     .menuOffcanvas{
         max-width: 100%;
+    }
+
+    /* Coupon Section */
+    .coupon{
+        width: 80%;
+    }
+    .couponEmail{
+        width: 75%;
+    }
+    .btnCoupon{
+        width: 75%;
+    }
+    .couponHeading{
+        font-size:4rem;
     }
 }
 

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalBox | Account</title>
+
+    <!------------------ Favicon ---------------------->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!----------------- Bootstrap 5 Files --------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!---------------- FontAwesome 5.15 Files ---------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--------------- CSS Linked Files -------------------->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/account.css" />
+</head>
+<body>
+    
+    <!-------------------- Header Section ----------------------->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!------- Currency Converter Menu --------->
+            <div class="currencySelectContainer ms-3">
+                <select class="currencySelect">
+                    <option value="rs">RS - &#8377</option>
+                    <option value="usd">USD - &#36;</option>
+                    <option value="eur">EUR - &#128;</option>
+                </select>
+                <span><i class="fas fa-sort-down"></i></span>
+            </div>
+
+
+            <!------------- Top Login/Signup Links -------------->
+            <div class="topLinks me-3">
+                <span><a href="#">Login</a> / <a href="#">Create Account</a></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid navbarContainer position-relative">
+            <div class="container">
+                <!---------------- NavBar ------------------->
+                <nav class="navbar navbar-light justify-content-between align-items-center">
+                    <div class="container-fluid">
+                      <a href="index.html" class="navbar-brand"><img src="images/logo-hor.png" alt="DigitalBox Logo"/></a>
+                      <form class="d-md-flex d-none">
+                        <input class="form-control searchForm" type="search" placeholder="Search Products" aria-label="Search">
+                        <button type="button" class="btn primaryBtn">SEARCH</button>
+                      </form>
+                      <div class="userIcons">
+                        <a href="#"><i class="fas fa-shopping-cart me-3"></i></a>
+                        <a href="#"><i class="fas fa-user me-3"></i></a>
+                        <a href="#"><i class="fas fa-heart me-3"></i></a>
+                      </div>
+                      <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <i class="fas fa-bars menuIcon"></i>
+                      </a>
+                    </div>
+                </nav>
+
+
+                <!----------------- Nav-Links ---------------------->
+                <div class="container-fluid navLinksContainer d-md-block d-none">
+                    <ul type="none" class="navLinks d-flex align-items-center">
+                        <li class="categoryList">
+                            <div class="dropdown categoryLink">
+                                <a href="#" class="navLink">CATEGORIES &nbsp; <i class="fas fa-bars"></i></a>    
+                            </div>
+                            <ul class="dropdown-menu categoryDropDown">
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between" href="#">Smartphones<i class="fas fa-angle-right"></i></a></li>
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between" href="#">Televisions <i class="fas fa-angle-right"></i></a></li>
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between" href="#">Laptops <i class="fas fa-angle-right"></i></a></li>
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between" href="#">Cameras <i class="fas fa-angle-right"></i></a></li>
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between" href="#">SmartWatches <i class="fas fa-angle-right"></i></a></li>
+                                <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between border-bottom-0" href="#">Accesories <i class="fas fa-angle-right"></i></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="navLink">HOME</a></li>
+                        <li><a href="#" class="navLink">SHOP</a></li>
+                        <li><a href="#" class="navLink">BLOG</a></li>
+                        <li><a href="#" class="navLink">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-------------- Weather Section ---------------->
+            <div class= "weatherSection position-absolute">
+              <span id="weatherImage"></span><span id="temperature"></span>
+            </div>
+        </div>
+
+
+
+        <!---- Bootstrap 5 OffCanvas Section End (Visible Only in Medium Devices) ------>
+        <div class="offcanvas offcanvas-end menuOffcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body resMenuSection">
+
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search Products" aria-label="Search">
+                <button type="button" class="btn primaryBtn"><i class="fas fa-search"></i></button>
+            </form>
+            
+            <a href="#" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
+
+            <div class="resCategoryDropdown" id="collapsableCategory"> 
+                <a href="#"><i class="fas fa-mobile-alt categoryIcons"></i> Mobiles</a>
+                <a href="#"><i class="fas fa-tv categoryIcons"></i> Televisions</a>
+                <a href="#"><i class="fas fa-laptop categoryIcons"></i> Laptops</a>
+                <a href="#"><i class="fas fa-camera categoryIcons"></i> Cameras</a>
+                <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-smartwatch categoryIcons" viewBox="0 0 16 16">
+                    <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z"/>
+                    <path d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z"/>
+                </svg>
+                SmartWatches
+                </a>
+                <a href="#"><i class="fas fa-headphones categoryIcons"></i> Accesories</a>
+            </div>
+
+            <a href="#" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">BLOG <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">CONTACT <i class="fas fa-angle-right"></i></a>
+
+            <div class="canvasFooter mt-0">
+                <div class="currencySelectContainer">
+                <select class="currencySelect">
+                    <option value="rs">RS - &#8377</option>
+                    <option value="usd">USD - &#36;</option>
+                    <option value="eur">EUR - &#128;</option>
+                </select>
+                <span><i class="fas fa-sort-down"></i></span>
+                </div>
+                <div>
+                <!-- Extra Buttons -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--------------- Bootstrap 5 OffCanvas Section End ---------------->
+    </main>
+
+
+    <footer>
+        <div class="container">
+          <div class="row">
+
+            <!------------------ Footer Links Section --------------------->
+            <div class="col-lg-2 col-md-4 col-sm-6 text-center footerLogo">
+              <img src="images/logo-ver.png" alt="Footer Logo"/>
+              <a href="#"><i class="fas fa-caret-right"></i> About</a>
+              <a href="#"><i class="fas fa-caret-right"></i> F.A.Qs</a>
+              <a href="#"><i class="fas fa-caret-right"></i> Privacy Policy</a>
+              <a href="#"><i class="fas fa-caret-right"></i> Terms & Conditions</a>
+            </div>
+
+
+            <!-------------------- Contact Section -------------------->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center social">
+              <h4>GET IN TOUCH</h4>
+              <p><i class="fas fa-map-marker-alt"></i>Random Location</p>
+              <p><i class="fas fa-phone-alt"></i>1234567890</p>
+              <p><i class="fas fa-envelope"></i>unknown@xyz.com</p>
+            </div>
+
+
+            <!---------------- Social Links Section --------------------->
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center social">
+              <h4>FOLLOW US ON</h4>
+                <div class="socialIcons user-select-none">
+                  <i class="fab fa-facebook-f mx-2"></i>
+                  <i class="fab fa-instagram mx-2"></i>
+                  <i class="fab fa-twitter mx-2"></i>
+                  <i class="fab fa-youtube mx-2"></i>
+                </div>
+            </div>
+
+
+            <!------------------- NewsLetter Section ---------------------->
+            <div class="col-lg-4 col-md-12 col-sm-6 newsletter">
+              <h4>SUBSCRIBE TO NEWSLETTER</h4>
+              <p class="mt-4">Signup for our weekly newsletter to get the latest news,updates and amazing offers delivered directly to your inbox.</p>
+              <div class="input-group mt-5">
+                <input type="email" class="form-control" placeholder="Email">
+                <button class="btn primaryBtn" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <hr/>
+
+
+          <!------------------  CopyRight Section ------------------>
+          <div class="copyright">
+            <p>&copy; 2022 Digital Box By Pranay. All rights reserved.</p>
+          </div>
+        </div>
+    </footer>
+
+    <!---------- Javascript Links ------------->
+    <script src="js/common.js"></script>
+    <script>
+        window.onload=geolocation();
+    </script>
+</body>
+</html>
