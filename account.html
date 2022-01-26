@@ -84,7 +84,7 @@
                                 <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between border-bottom-0" href="#">Accesories <i class="fas fa-angle-right"></i></a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="navLink">HOME</a></li>
+                        <li><a href="index.html" class="navLink">HOME</a></li>
                         <li><a href="#" class="navLink">SHOP</a></li>
                         <li><a href="#" class="navLink">BLOG</a></li>
                         <li><a href="#" class="navLink">CONTACT</a></li>
@@ -107,9 +107,8 @@
                 </div>
                 <div class="col-9">
                   <div class="accountSection">
-                    <div class="login">
-                      <h2>LOGIN</h2>
-                      <hr/>
+                    <div class="login ">
+                      <h3>LOGIN</h3>
                       <form>
                         <label for="login_email">Email</label>
                         <input type="email" class="form-control" placeholder="abc@xyz.com" id="login_email">
@@ -120,6 +119,31 @@
                         <button type="submit" class="btn primaryBtn loginBtn">LOGIN</button>
                       </form>
                       <p>Don't Have an Account Yet?<a href="#"> REGISTER</a></p>
+                    </div>
+                    <div class="register d-none">
+                      <h3>REGISTER</h3>         
+                      <form>
+                        <label for="first_name">First Name</label>
+                        <input type="text" class="form-control" placeholder="" id="first_name">
+                        
+                        <label for="last_name">Last Name</label>
+                        <input type="text" class="form-control" placeholder="" id="last_name">
+
+                        <label for="register_email">Email</label>
+                        <input type="email" class="form-control" placeholder="" id="register_email">
+
+                        <label for="register_password">Password</label>
+                        <input type="password" class="form-control" placeholder="" id="register_password">
+
+                        <label for="confirm_pass">Confirm Password</label>
+                        <input type="text" class="form-control" placeholder="" id="confirm_pass">
+                        
+                        <label for="mobile_no">Mobile Number</label>
+                        <input type="text" class="form-control" placeholder="" id="mobile_no">
+                        
+                        <button type="submit" class="btn primaryBtn registerBtn">REGISTER</button>
+                      </form>
+                      <p>Already Register?<a href="#"> LOGIN</a></p>
                     </div>
                   </div>
                 </div>
