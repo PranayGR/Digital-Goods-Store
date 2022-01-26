@@ -1,6 +1,6 @@
 .userSection{
     height: 500px;
-    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);
     margin-top: 40px;
     max-width: 70%; 
 }
@@ -10,5 +10,64 @@
 }
 
 .userOption{
-    border: 1px solid red;
+    background-color: #f5f5f5;
+}
+
+.userOption p{
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: var(--font-wght-medium);
+}
+
+.userOption p a{
+    color: #787575;
+}
+
+.userOption p:hover a{
+    color: #333;
+}
+
+.accountSection .login h2{
+    margin-top: 15px;
+}
+
+.accountSection .login form{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.accountSection .login input{
+    width: 100%;
+    padding: 12px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.accountSection .login label{
+    font-size: 13px;
+    transform: translate(10px,10px);
+    background-color: #fff;
+    padding: 0 5px;
+    color: #1774EF; 
+}
+
+.accountSection .login .loginBtn{
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 5%;
+    font-weight: var(--font-wght-medium);
+}
+
+.accountSection .login p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+.accountSection .login p a{
+    color: var(--clr-primary);
+    font-weight: var(--font-wght-bold);
+    font-size: 14px;
 }
