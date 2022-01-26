@@ -28,6 +28,10 @@
     color: #333;
 }
 
+.active{
+    color: #333 !important;
+}
+
 .accountSection .login h3{
     margin-top: 10px;
     border-bottom: 1px solid #333;
@@ -35,7 +39,8 @@
 
 .accountSection .login form{
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .accountSection .login input{
@@ -71,6 +76,10 @@
     color: var(--clr-primary);
     font-weight: var(--font-wght-bold);
     font-size: 14px;
+}
+
+.accountSection .register{
+    display: none;
 }
 
 .accountSection .register h3{
@@ -117,4 +126,17 @@
     color: var(--clr-primary);
     font-weight: var(--font-wght-bold);
     font-size: 14px;
+}
+
+@media screen and (max-width:992px){
+    .userSection{
+        max-width: 80% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .userOption p{
+        font-size: 20px;
+    }
 }

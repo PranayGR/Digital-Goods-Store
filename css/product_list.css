@@ -1,0 +1,13 @@
+.filterSection{
+    border-top: 1px solid red;
+}
+
+.filterSection h4{
+    font-weight: var(--font-wght-light);
+    color: #333;
+    border-bottom: 1px solid #E5E5E5; 
+}
+
+.productListSection{
+    border-top: 1px solid green;
+}
