@@ -1,6 +1,6 @@
-.filterSection{
-    border-top: 1px solid red;
-}
+/* .listingContainer{
+    margin-top: -15px;
+} */
 
 .filterSection h4{
     font-weight: var(--font-wght-light);
@@ -10,4 +10,21 @@
 
 .productListSection{
     border-top: 1px solid green;
+    border-left: 1px solid green;
+}
+
+.filterDiv:not(:first-of-type){
+    border-top: 2px solid rgb(196, 190, 190);
+}
+
+.filterDiv{
+    padding: 10px 0;
+}
+
+.filterTitle{
+    font-weight: var(--font-wght-bold);
+}
+
+.filterDiv label{
+    font-size: 15px;
 }

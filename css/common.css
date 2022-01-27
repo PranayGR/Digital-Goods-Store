@@ -21,11 +21,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: auto;
-
     /* To Keep Footer At Bottom */
     min-height: 100vh;
     display: grid;
