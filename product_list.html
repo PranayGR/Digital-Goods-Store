@@ -57,7 +57,7 @@
                       </form>
                       <div class="userIcons">
                         <a href="#"><i class="fas fa-shopping-cart me-3"></i></a>
-                        <a href="#"><i class="fas fa-user me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-user me-3"></i></a>
                         <a href="#"><i class="fas fa-heart me-3"></i></a>
                       </div>
                       <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -84,7 +84,7 @@
                             </ul>
                         </li>
                         <li><a href="#" class="navLink">HOME</a></li>
-                        <li><a href="#" class="navLink">SHOP</a></li>
+                        <li><a href="product_list.html" class="navLink">SHOP</a></li>
                         <li><a href="#" class="navLink">BLOG</a></li>
                         <li><a href="#" class="navLink">CONTACT</a></li>
                     </ul>
@@ -110,22 +110,22 @@
 
                     <div class="filterDiv">
                       <p class="filterTitle">Category</p>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Smartphones
-                        </label>
+                      <div  id="categoryCheck">
+                        
                       </div>
                     </div>
 
                     <div class="filterDiv">
                       <p class="filterTitle">Brands</p>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                        <label class="form-check-label" for="flexCheckDefault1">
-                          Smartphones
-                        </label>
+                      <div id="brandCheck">
+                        <!-- <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                          <label class="form-check-label" for="flexCheckDefault1">
+                            Smartphones
+                          </label>
+                        </div> -->
                       </div>
+                      <div class="text-center" id="seeMoreBtn">See More...</div>
                     </div>
 
                     <div class="filterDiv">
@@ -200,7 +200,7 @@
                 <a href="#"><i class="fas fa-headphones categoryIcons"></i> Accesories</a>
             </div>
 
-            <a href="#" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
+            <a href="product_list.html" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
@@ -283,6 +283,7 @@
 
     <!---------- Javascript Links ------------->
     <script src="js/common.js"></script>
+    <script src="js/product_list.js"></script>
     <script>
         window.onload=geolocation();
     </script>

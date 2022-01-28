@@ -28,3 +28,17 @@
 .filterDiv label{
     font-size: 15px;
 }
+
+#brandCheck{
+    height: 115px;
+    overflow-y: hidden;
+}
+
+#seeMoreBtn{
+    color: rgb(13, 110, 253);
+    cursor: pointer;
+}
+
+#seeMoreBtn:hover{
+    color: rgb(0, 55, 138);
+}

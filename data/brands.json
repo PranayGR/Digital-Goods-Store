@@ -68,5 +68,15 @@
         "id":"14",
         "name": "Nikon",
         "category_id": "4"
+    },
+    {
+        "id":"15",
+        "name": "Apple",
+        "category_id": "5"
+    }
+    {
+        "id":"16",
+        "name": "FitBit",
+        "category_id": "5"
     }
 ]
