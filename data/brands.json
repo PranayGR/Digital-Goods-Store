@@ -73,10 +73,15 @@
         "id":"15",
         "name": "Apple",
         "category_id": "5"
-    }
+    },
     {
         "id":"16",
         "name": "FitBit",
+        "category_id": "5"
+    },
+    {
+        "id":"17",
+        "name": "Fossil",
         "category_id": "5"
     }
 ]
