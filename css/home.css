@@ -204,3 +204,117 @@
     color:#ea174b;
     cursor: pointer;
 }
+
+
+/* Media Queries */
+/*=============== For Extra Large Breakpoints ==================*/
+@media screen and (max-width:1200px) {
+
+    /*========= home.css ===========*/
+    /* Coupon Section */
+    .coupon{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    /* Deal Section */
+    .dealTimer ul{
+        display:flex;
+        justify-content:space-between;
+        padding-top: 20px;
+        text-align:center;
+    }
+    .dealSection{
+        top: 100%;
+        left: 50%;
+        padding: 20px;  
+    }
+    .dealProductImage{
+        height: 350px;
+    }
+
+    /* Coupon Section */
+    .coupon{
+        width: 60%;
+    }
+    .couponEmail{
+        width: 50%;
+    }
+    .btnCoupon{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* Carousel Section */
+    .banners{
+        height: 300px;
+    }
+
+    /* Deal Section */
+    .dealHeading{
+        padding-top: 30px;
+    }
+    .dealSection{
+        top: 130%;
+        left: 50%;
+        padding: 0px;  
+    }
+    .dealProductImage{
+        height: 300px;
+    }
+    .dealDetails{
+        padding: 30px;
+    }
+
+    /* Categories Section */
+    .categoryHeading::after{
+        width: 420px;
+    }
+    .categoryImg img{
+        height: 150px;
+    }
+
+    /* Promise Section */
+    .promise{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    /* Deal Section */
+    .dealTimer span{
+        font-size: 35px;
+    }
+    .dealTimer li{
+        font-size: 16px;
+    }
+
+    /* category Section */
+    .categoryHeading::after{
+        width: 80%;
+    }
+
+    /* Promise Section  */
+    .promise{
+        width: 220px;
+    }
+    .promise i{
+        width: 25%;
+    }
+
+    /* Coupon Section */
+    .coupon{
+        width: 80%;
+    }
+    .couponEmail{
+        width: 75%;
+    }
+    .btnCoupon{
+        width: 75%;
+    }
+    .couponHeading{
+        font-size:4rem;
+    }
+}

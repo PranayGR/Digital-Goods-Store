@@ -374,3 +374,50 @@ footer h4{
     margin-bottom: 20px;
     color: #a8a8a8;
 }
+
+
+/* Media Queries */
+
+/*=============== For Large Breakpoints ==================*/
+@media screen and (max-width:992px) {
+    /* Navbar */
+    .navbar-brand img{
+        height: 2.5rem;
+    }
+    .searchForm{
+        width: 15rem;
+    }
+}
+
+/*=============== For Medium Breakpoints ==================*/
+@media screen and (max-width:768px) {
+    /* Navbar */
+    header{
+        display: none;
+    }
+
+    .navbar{
+        padding: 1em 0; 
+    }
+    
+    .userIcons{
+        display: none;
+    }
+    /* Weather Section */
+    .weatherSection{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* Navbar */
+    .navbar-brand img{
+        height: 2.3rem;
+    }
+    /* Offcanvas Section */
+    .menuOffcanvas{
+        max-width: 100%;
+    }
+
+}

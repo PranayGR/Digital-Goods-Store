@@ -1,3 +1,4 @@
+// Login/Register Open/Close JS
 changeForm = () =>{
     var login = document.getElementById('login');
     var register = document.getElementById('register');
