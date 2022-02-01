@@ -190,10 +190,10 @@
               <div class="row align-items-center">  
                 <div class="col-lg-3 dealTimer">
                   <ul>
-                    <li><span>00</span> DAYS</li>
-                    <li><span>00</span> HOURS</li>
-                    <li><span>00</span> MINS</li>
-                    <li><span>00</span> SECS</li>
+                    <li><span id="days">00</span> DAYS</li>
+                    <li><span id="hours">00</span> HOURS</li>
+                    <li><span id="mins">00</span> MINS</li>
+                    <li><span id="secs">00</span> SECS</li>
                   </ul>
                 </div>
                 <div class="col-lg-5 col-md-6 text-center">
@@ -244,7 +244,7 @@
           <!---- Bootstrap 5 OffCanvas Section End (Visible Only in Medium Devices) ------>
           <div class="offcanvas offcanvas-end menuOffcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body resMenuSection">
@@ -254,7 +254,7 @@
                 <button type="button" class="btn primaryBtn"><i class="fas fa-search"></i></button>
               </form>
               
-              <a href="#" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
+              <a href="javascript:void(0)" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
 
               <div class="resCategoryDropdown" id="collapsableCategory"> 
                 <a href="#"><i class="fas fa-mobile-alt categoryIcons"></i> Mobiles</a>
