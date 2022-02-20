@@ -39,7 +39,7 @@
 
             <!------------- Top Login/Signup Links -------------->
             <div class="topLinks me-3">
-                <span><a href="#">Login</a> / <a href="#">Create Account</a></span>
+                <span><a href="account.html">Login</a> / <a href="account.html">Create Account</a></span>
             </div>
         </div>
     </header>
@@ -56,9 +56,9 @@
                         <button type="button" class="btn primaryBtn">SEARCH</button>
                       </form>
                       <div class="userIcons">
-                        <a href="#"><i class="fas fa-shopping-cart me-3"></i></a>
-                        <a href="#account.html"><i class="fas fa-user me-3"></i></a>
-                        <a href="#"><i class="fas fa-heart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-shopping-cart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-user me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-heart me-3"></i></a>
                       </div>
                       <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         <i class="fas fa-bars menuIcon"></i>
@@ -103,17 +103,17 @@
             <div class="row">
                 <div class="col-md-3 userOption">
                   <div class="userOptionLarge d-md-block d-none">
-                    <p><a href="" class="active"><i class="fas fa-user me-3"></i>My Account</a></p>
-                    <p><a href=""><i class="fas fa-heart me-3"></i>My Wishlist</a></p>
-                    <p><a href=""><i class="fas fa-shopping-cart me-3"></i>My Cart</a></p>
+                    <button class="tabLinks active" onclick="changeTab(event, 'account')"><i class="fas fa-user me-3"></i>My Account</button>
+                    <button class="tabLinks" onclick="changeTab(event, 'wishlist')"><i class="fas fa-heart me-3"></i>My Wishlist</button>
+                    <button class="tabLinks" onclick="changeTab(event, 'cart')"><i class="fas fa-shopping-cart me-3"></i>My Cart</button>
                   </div>
                   <div class="userOptionSmall d-md-none d-flex justify-content-around">
-                    <p><a href="" class="active"><i class="fas fa-user me-3"></i></a></p>
-                    <p><a href=""><i class="fas fa-heart me-3"></i></a></p>
-                    <p><a href=""><i class="fas fa-shopping-cart me-3"></i></a></p>
+                    <button class="tabLinks active" onclick="changeTab(event, 'account')"><i class="fas fa-user me-3"></i>My Account</button>
+                    <button class="tabLinks" onclick="changeTab(event, 'wishlist')"><i class="fas fa-heart me-3"></i>My Wishlist</button>
+                    <button class="tabLinks" onclick="changeTab(event, 'cart')"><i class="fas fa-shopping-cart me-3"></i>My Cart</button>
                   </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 overflow-hidden">
                   <!----------------- Login/Register Section ------------------->
                   <div class="accountSection">
                     <div class="login" id="login">
@@ -155,6 +155,79 @@
                       <p>Already Register?<span onclick="changeForm()"> LOGIN</span></p>
                     </div>
                   </div>
+                
+                
+                  <!-- Wishlist Section -->
+                  <div class="wishlistSection">
+                    <h3>FAVOURITES</h3>
+                    <div class="favProducts">
+                      
+                      <a href="#">
+                      <div class="favProductCard card">     
+                          <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                          <div class="card-body">
+                            <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                            <p class="card-text"><span class="currencySymbol">&#8377;</span> <span class="price">79900</span></p>
+                          </div>
+                          <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="fas fa-heart"></i>
+                          </div>                     
+                      </div>
+                      </a>
+
+                      <a href="#">
+                        <div class="favProductCard card">     
+                            <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                            <div class="card-body">
+                              <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                              <p class="card-text"><span class="currencySymbol">&#8377;</span> <span class="price">79900</span></p>
+                            </div>
+                            <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="fas fa-heart"></i>
+                            </div>                     
+                        </div>
+                        </a>
+                    
+                      <a href="#">
+                        <div class="favProductCard card">     
+                            <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                            <div class="card-body">
+                              <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                              <p class="card-text"><span class="currencySymbol">&#8377;</span> <span class="price">79900</span></p>
+                            </div>
+                            <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="fas fa-heart"></i>
+                            </div>                     
+                        </div>
+                      </a>
+
+                        <a href="#">
+                          <div class="favProductCard card">     
+                              <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                              <div class="card-body">
+                                <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                                <p class="card-text"><span class="currencySymbol">&#8377;</span> <span class="price">79900</span></p>
+                              </div>
+                              <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="fas fa-heart"></i>
+                              </div>                     
+                          </div>
+                        </a>
+
+                        <a href="#">
+                          <div class="favProductCard card">     
+                              <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                              <div class="card-body">
+                                <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                                <p class="card-text"><span class="currencySymbol">&#8377;</span> <span class="price">79900</span></p>
+                              </div>
+                              <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="fas fa-heart"></i>
+                              </div>                     
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+
+                  <!-- Cart Section -->
+                  <div class="cartSection">
+                    <h3>CART</h3>
+                  </div>
                 </div>
             </div>
         </div>
@@ -192,9 +265,9 @@
             </div>
 
             <a href="product_list.html" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
-            <a href="#account.html" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
-            <a href="#" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
-            <a href="#" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">BLOG <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">CONTACT <i class="fas fa-angle-right"></i></a>
 

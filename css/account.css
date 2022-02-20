@@ -1,3 +1,4 @@
+/* User Section CSS */
 .userSection{
     height: 500px;
     box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);
@@ -13,18 +14,20 @@
     background-color: #f5f5f5;
 }
 
-.userOption p{
-    margin: 0;
+.userOption button{
+    display: block;
+    width: 100%;
+    color: #787575;
+    border: 0;
+    outline: 0;
+    box-shadow: 0;
+    background-color: transparent;
     font-size: 18px;
     padding: 10px 0;
     font-weight: var(--font-wght-medium);
 }
 
-.userOption p a{
-    color: #787575;
-}
-
-.userOption p:hover a{
+.userOption p:hover button{
     color: #333;
 }
 
@@ -32,6 +35,8 @@
     color: #333 !important;
 }
 
+/* Account Section CSS */
+    /* Login */
 .accountSection .login h3{
     margin-top: 10px;
     border-bottom: 1px solid #333;
@@ -79,6 +84,7 @@
     cursor: pointer;
 }
 
+    /* Register */
 .accountSection .register{
     display: none;
 }
@@ -129,6 +135,87 @@
     font-weight: var(--font-wght-bold);
     font-size: 14px;
     cursor: pointer;
+}
+
+
+/* Wishlist Section */
+.wishlistSection{
+    height: 500px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.wishlistSection::-webkit-scrollbar{
+    display: none;
+}
+
+.wishlistSection h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.favProducts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.favProducts a:hover{
+    color: #000;
+}
+
+.favProductCard{
+    max-width: 200px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-inline: auto;
+}
+
+.favProductCard h6{
+    font-weight: var(--font-wght-medium);
+    font-size: 17px;
+}
+
+.favProductCard:hover h6{
+    color: var(--clr-primary);
+}
+
+.favProductCard .wishlistBtn{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    font-size: 20px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    opacity: 1;
+    color: var(--clr-primary);
+}
+
+/* Cart Section */
+.cartSection{
+    display: none;
+}
+
+.cartSection h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+/* Media Queries */
+@media screen and (max-width:1200px){
+    .favProducts{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:500px){
+    .favProducts{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media screen and (max-width:992px){

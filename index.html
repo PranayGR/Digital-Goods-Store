@@ -39,7 +39,7 @@
 
             <!------------- Top Login/Signup Links -------------->
             <div class="topLinks me-3">
-                <span><a href="#">Login</a> / <a href="#">Create Account</a></span>
+                <span><a href="account.html">Login</a> / <a href="account.html">Create Account</a></span>
             </div>
         </div>
     </header>
@@ -58,9 +58,9 @@
                         <button type="button" class="btn primaryBtn">SEARCH</button>
                       </form>
                       <div class="userIcons">
-                        <a href="#"><i class="fas fa-shopping-cart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-shopping-cart me-3"></i></a>
                         <a href="account.html"><i class="fas fa-user me-3"></i></a>
-                        <a href="#"><i class="fas fa-heart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-heart me-3"></i></a>
                       </div>
                       <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         <i class="fas fa-bars menuIcon"></i>
@@ -70,7 +70,7 @@
 
 
                 <!----------------- Nav-Links ---------------------->
-                <div class="container-fluid navLinksContainer d-md-block d-none">
+                <div class="container-fluid navLinksContainer d-md-block d-none" id="navLinksContainer">
                     <ul type="none" class="navLinks d-flex align-items-center">
                         <li class="categoryList">
                             <div class="dropdown categoryLink">
@@ -308,6 +308,12 @@
             <span onclick="closePopup()" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-light couponCloseBtn">
               &times;
             </span>
+          </div>
+
+
+          <!-- Scroll to Top Button -->
+          <div id="scrollTopBtn">
+            <button class=""><i class="fas fa-chevron-up"></i></button>
           </div>
     </main>
 

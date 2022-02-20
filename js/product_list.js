@@ -1,5 +1,5 @@
-let categoryURL = "http://localhost:3979/category";
-let brandsURL = "http://localhost:3979/brands";
+let categoryURL = "https://digital-box-api.herokuapp.com/category";
+let brandsURL = "https://digital-box-api.herokuapp.com/brand";
 
 
 // Dynamic Category Checkbox on Load
@@ -71,7 +71,8 @@ window.addEventListener('load', function() {
             elem3.setAttribute('class', 'form-check');
 
             elem2.appendChild(text);
-
+            
+            // Appending Input And Label to Div 
             elem3.appendChild(elem1);
             elem3.appendChild(elem2);
 
@@ -93,3 +94,22 @@ document.getElementById('seeMoreBtn').addEventListener('click',function(){
         document.getElementById('seeMoreBtn').innerText = 'See Less ...'
     }
 });
+
+// Filter Brands on Category
+
+
+// Wishlist
+let wishlistBtn = document.querySelectorAll('.wishlistBtn')
+for(let i = 0; i < wishlistBtn.length; i++){
+    wishlistBtn[i].addEventListener('click', function(){
+        if(wishlistBtn[i].children[0].classList.contains('far')){
+            wishlistBtn[i].children[0].classList.remove('far');
+            wishlistBtn[i].children[0].classList.add('fas');
+            wishlistBtn[i].children[0].style.color= '#D9525E';
+        } else if(wishlistBtn[i].children[0].classList.contains('fas')){
+            wishlistBtn[i].children[0].classList.remove('fas');
+            wishlistBtn[i].children[0].classList.add('far');
+            wishlistBtn[i].children[0].style.color= 'black';
+        }
+    })
+}

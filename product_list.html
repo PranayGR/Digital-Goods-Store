@@ -39,7 +39,7 @@
 
             <!------------- Top Login/Signup Links -------------->
             <div class="topLinks me-3">
-                <span><a href="#">Login</a> / <a href="#">Create Account</a></span>
+                <span><a href="account.html">Login</a> / <a href="account.html">Create Account</a></span>
             </div>
         </div>
     </header>
@@ -56,9 +56,9 @@
                         <button type="button" class="btn primaryBtn">SEARCH</button>
                       </form>
                       <div class="userIcons">
-                        <a href="#"><i class="fas fa-shopping-cart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-shopping-cart me-3"></i></a>
                         <a href="account.html"><i class="fas fa-user me-3"></i></a>
-                        <a href="#"><i class="fas fa-heart me-3"></i></a>
+                        <a href="account.html"><i class="fas fa-heart me-3"></i></a>
                       </div>
                       <a class="d-md-none d-inline-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         <i class="fas fa-bars menuIcon"></i>
@@ -83,7 +83,7 @@
                                 <li><a class="dropdown-item categoryItem d-flex align-items-center justify-content-between border-bottom-0" href="#">Accesories <i class="fas fa-angle-right"></i></a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="navLink">HOME</a></li>
+                        <li><a href="index.html" class="navLink">HOME</a></li>
                         <li><a href="product_list.html" class="navLink">SHOP</a></li>
                         <li><a href="#" class="navLink">BLOG</a></li>
                         <li><a href="#" class="navLink">CONTACT</a></li>
@@ -170,12 +170,11 @@
                           <option selected disabled>Sort By</option>
                           <option value="1">Price: Low to High</option>
                           <option value="2">Price: High to Low</option>
-                          <option value="3">Rating:Low to High</option>
                         </select>
-                        <div>
-                          <button type="button" class="btn productListBtn"><i class="fas fa-bars"></i></button>
-                          <button type="button" class="btn productCardBtn"><i class="fas fa-th-large"></i></button>
-                        </div>
+                        <!-- <div>
+                          <button type="button" class="btn productCardBtn" onclick="changeCardSize()"><i class="fas fa-bars"></i></button>
+                          <button type="button" class="btn productCardBtn productBtnActive"><i class="fas fa-th-large"></i></button>
+                        </div> -->
                     </div>
                   </div>
                   
@@ -183,70 +182,58 @@
                   <!-------------- Small Card View ----------------->
                   <div class="productCardSm row">
                     
-                      <div class="card">
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="card-img-top" alt="Iphone 13">
+                      <div class="card"> 
+                          <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                          <div class="card-body">
+                            <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                            <p class="card-text">&#8377; <span class="price">79,900</span></p>
+                          </div>
+                          <div class="card-footer">
+                          <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                          <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
+                          </div>
+                          <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
+                      </div>
+
+                      <div class="card"> 
+                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
                         <div class="card-body">
                           <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377;79,900</p>
+                          <p class="card-text">&#8377; <span class="price">79,900</span></p>
                         </div>
-                        <div class="card-footer d-flex">
-                         <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                         <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
+                        <div class="card-footer">
+                        <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
                         </div>
                         <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
                       </div>
 
-                      <div class="card">
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="card-img-top" alt="Iphone 13">
-                        <div class="card-body">
-                          <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377;79,900</p>
-                        </div>
-                        <div class="card-footer d-flex">
-                         <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                         <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                        </div>
-                        <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
+                    <div class="card"> 
+                      <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                      <div class="card-body">
+                        <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                        <p class="card-text">&#8377; <span class="price">79,900</span></p>
                       </div>
+                      <div class="card-footer">
+                      <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                      <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
+                      </div>
+                      <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
+                    </div>
 
-                      <div class="card">
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="card-img-top" alt="Iphone 13">
-                        <div class="card-body">
-                          <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377;79,900</p>
-                        </div>
-                        <div class="card-footer d-flex">
-                         <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                         <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                        </div>
-                        <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                      </div>
 
-                      <div class="card">
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="card-img-top" alt="Iphone 13">
-                        <div class="card-body">
-                          <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377;79,900</p>
-                        </div>
-                        <div class="card-footer d-flex">
-                         <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                         <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                        </div>
-                        <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                      </div>
-                    
-                      <div class="card">
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="card-img-top" alt="Iphone 13">
-                        <div class="card-body">
-                          <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377;79,900</p>
-                        </div>
-                        <div class="card-footer d-flex">
-                         <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                         <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                        </div>
-                        <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                      </div>
+                  <div class="card"> 
+                    <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
+                    <div class="card-body">
+                      <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
+                      <p class="card-text">&#8377; <span class="price">79,900</span></p>
+                    </div>
+                    <div class="card-footer">
+                    <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
+                    </div>
+                    <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
+                  </div>
                     
                     
                   </div>
@@ -310,9 +297,9 @@
             </div>
 
             <a href="product_list.html" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
-            <a href="#" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
-            <a href="#" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
-            <a href="#" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
+            <a href="account.html" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">BLOG <i class="fas fa-angle-right"></i></a>
             <a href="#" class="resNavLink">CONTACT <i class="fas fa-angle-right"></i></a>
 

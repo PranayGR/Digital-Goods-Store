@@ -31,3 +31,32 @@ document.getElementById('opencategories').addEventListener('click', function() {
         collapsableCategory.style.display = 'none';
     }
 })
+
+
+// Currency Converter
+let converterURL = "https://freecurrencyapi.net/api/v2/latest?apikey=55db6ac0-7b7c-11ec-8082-d5ad37ab331c&base_currency=INR";
+let currencySelect = document.querySelector('.currencySelect');
+let Prices = document.querySelectorAll('.price');
+let currencySymbol = document.querySelectorAll('.currencySymbol');
+
+currencySelect.addEventListener('change',priceChange)
+function priceChange() {
+    let currency = currencySelect.value;
+    fetch(converterURL)
+    .then(res => res.json())
+    .then((Data) => {
+        for(let i = 0; i < Prices.length; i++) {
+            if(currency == 'usd'){
+                for(let j = 0; j < currencySymbol.length; j++) {
+                    currencySymbol[j].innerText = '$';
+                }
+                Prices[i].innerText = `${Number(Number(Prices[i].innerText) * Data.data.USD).toFixed(2)}`;
+            } else if(currency == 'eur'){
+                for(let j = 0; j < currencySymbol.length; j++) {
+                    currencySymbol[j].innerText = '€';
+                }
+                Prices[i].innerText = `${Number(Number(Prices[i].innerText) * Data.data.EUR).toFixed(2)}`
+            }
+        }
+    })
+}

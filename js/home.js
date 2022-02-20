@@ -19,7 +19,7 @@ let minutes = document.getElementById('mins');
 let seconds = document.getElementById('secs');
 
 const countdown = () => {
-    const countDate = new Date("February 10, 2022 00:00:00").getTime();
+    const countDate = new Date("March 10, 2022 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -36,5 +36,15 @@ const countdown = () => {
     seconds.innerText = ("0" + Math.floor((gap % min) / second)).slice(-2);
     
 }
-// To call Function and keep updating every second
+    // To call Function and keep updating every second
 setInterval(countdown, 1000);
+
+
+// Scroll to Top
+window.addEventListener('scroll', function() {
+    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+        document.getElementById('scrollTopBtn').style.visibility = 'visible';
+    } else{
+        document.getElementById('scrollTopBtn').style.visibility = 'hidden';
+    }
+})
