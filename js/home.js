@@ -40,11 +40,17 @@ const countdown = () => {
 setInterval(countdown, 1000);
 
 
-// Scroll to Top
+// Scroll to Top Appear
 window.addEventListener('scroll', function() {
     if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
         document.getElementById('scrollTopBtn').style.visibility = 'visible';
     } else{
         document.getElementById('scrollTopBtn').style.visibility = 'hidden';
     }
+})
+
+// Scroll to Top OnClick
+document.getElementById('scrollTopBtn').addEventListener('click', function(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 })

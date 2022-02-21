@@ -18,7 +18,7 @@
 
     <!--------------- CSS Linked Files -------------------->
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/product_list.css" />
+    <link rel="stylesheet" href="css/product_detail.css" />
 </head>
 <body>
     
@@ -97,179 +97,12 @@
             </div>
         </div>
 
-        <div class="container-fluid listingContainer">
-            <div class="row">
-                <div class="col-lg-2 d-lg-block d-none filterSection pb-5">
-                    <h4>FILTERS</h4>
-
-                    <div class="filterDiv">
-                      <p class="filterTitle">Price</p>
-                      <!-- <label for="customRange1" class="form-label">Example range</label> -->
-                      <input type="range" class="form-range" id="customRange1">
-                    </div>
-
-                    <div class="filterDiv">
-                      <p class="filterTitle">Category</p>
-                      <div  id="categoryCheck">
-                        
-                      </div>
-                    </div>
-
-                    <div class="filterDiv">
-                      <p class="filterTitle">Brands</p>
-                      <div id="brandCheck">
-                        <!-- <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                          <label class="form-check-label" for="flexCheckDefault1">
-                            Smartphones
-                          </label>
-                        </div> -->
-                      </div>
-                      <div class="text-center" id="seeMoreBtn">See More...</div>
-                    </div>
-
-                    <div class="filterDiv">
-                      <p class="filterTitle">Discount Percent</p>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="discount1">
-                        <label class="form-check-label" for="discount1">
-                          60% or more
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="discount1">
-                        <label class="form-check-label" for="discount1">
-                          40% to 60%
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="discount1">
-                        <label class="form-check-label" for="discount1">
-                          20% to 30%
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="discount1">
-                        <label class="form-check-label" for="discount1">
-                          10% to 20%
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="discount1">
-                        <label class="form-check-label" for="discount1">
-                          upto 10%
-                        </label>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-10 productListSection">
-                  <div class="d-flex justify-content-between">
-                    <h3 class="mt-3">SEARCH</h3>
-                    <div class="d-flex mt-3">
-                        <select class="form-select form-select-sm productSortSelect me-3">
-                          <option selected disabled>Sort By</option>
-                          <option value="1">Price: Low to High</option>
-                          <option value="2">Price: High to Low</option>
-                        </select>
-                        <!-- <div>
-                          <button type="button" class="btn productCardBtn" onclick="changeCardSize()"><i class="fas fa-bars"></i></button>
-                          <button type="button" class="btn productCardBtn productBtnActive"><i class="fas fa-th-large"></i></button>
-                        </div> -->
-                    </div>
-                  </div>
-                  
-
-                  <!-------------- Small Card View ----------------->
-                  <div class="productCardSm row">
-                    
-                      <div class="card"> 
-                          <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
-                          <div class="card-body">
-                            <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                            <p class="card-text">&#8377; <span class="price">79,900</span></p>
-                          </div>
-                          <div class="card-footer">
-                          <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                          <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                          </div>
-                          <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                      </div>
-
-                      <div class="card"> 
-                        <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
-                        <div class="card-body">
-                          <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                          <p class="card-text">&#8377; <span class="price">79,900</span></p>
-                        </div>
-                        <div class="card-footer">
-                        <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                        <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                        </div>
-                        <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                      </div>
-
-                    <div class="card"> 
-                      <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
-                      <div class="card-body">
-                        <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                        <p class="card-text">&#8377; <span class="price">79,900</span></p>
-                      </div>
-                      <div class="card-footer">
-                      <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                      <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                      </div>
-                      <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                    </div>
-
-
-                  <div class="card"> 
-                    <img src="https://i.ibb.co/8M5sGxf/1.jpg" class="" alt="Iphone 13">
-                    <div class="card-body">
-                      <h6 class="card-title">Apple iPhone 13 128 GB, Midnight (Black)</h6>
-                      <p class="card-text">&#8377; <span class="price">79,900</span></p>
-                    </div>
-                    <div class="card-footer">
-                    <button class="cartBtn text-center"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-                    <button class="viewBtn text-center"><i class="far fa-eye"></i> View</button>
-                    </div>
-                    <div class="wishlistBtn d-flex justify-content-center align-items-center"><i class="far fa-heart"></i></div>
-                  </div>
-                    
-                    
-                  </div>
-
-                  <hr/>
-                  <!-- ----------- Pagination ------------
-                  <div class="pageSection d-flex justify-content-center">
-                    <nav aria-label="Page navigation example">
-                      <ul class="pagination">
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                          </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div> -->
-
-                </div>
-            </div>
-        </div>
-
 
 
         <!---- Bootstrap 5 OffCanvas Section End (Visible Only in Medium Devices) ------>
         <div class="offcanvas offcanvas-end menuOffcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body resMenuSection">
@@ -279,7 +112,7 @@
                 <button type="button" class="btn primaryBtn"><i class="fas fa-search"></i></button>
             </form>
             
-            <a href="javascript:void(0)" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
+            <a href="#" class="resNavLink" id="opencategories">ALL CATEGORIES <i class="fas fa-angle-down"></i></a>
 
             <div class="resCategoryDropdown" id="collapsableCategory"> 
                 <a href="#"><i class="fas fa-mobile-alt categoryIcons"></i> Mobiles</a>
@@ -296,7 +129,7 @@
                 <a href="#"><i class="fas fa-headphones categoryIcons"></i> Accesories</a>
             </div>
 
-            <a href="product_list.html" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
+            <a href="#" class="resNavLink">SHOP <i class="fas fa-angle-right"></i></a>
             <a href="account.html" class="resNavLink">MY ACCOUNT <i class="fas fa-angle-right"></i></a>
             <a href="account.html" class="resNavLink">CART <i class="fas fa-angle-right"></i></a>
             <a href="account.html" class="resNavLink">WISHLIST <i class="fas fa-angle-right"></i></a>
@@ -306,7 +139,7 @@
             <div class="canvasFooter mt-0">
                 <div class="currencySelectContainer">
                 <select class="currencySelect">
-                    <option value="rs">RS - &#8377;</option>
+                    <option value="rs">RS - &#8377</option>
                     <option value="usd">USD - &#36;</option>
                     <option value="eur">EUR - &#128;</option>
                 </select>
@@ -328,7 +161,7 @@
 
             <!------------------ Footer Links Section --------------------->
             <div class="col-lg-2 col-md-4 col-sm-6 text-center footerLogo">
-              <img src="images/logo-ver.png" alt="Footer Logo"/>
+              <img src="https://i.ibb.co/DzTDBG8/logo-ver.png" alt="Footer Logo"/>
               <a href="#"><i class="fas fa-caret-right"></i> About</a>
               <a href="#"><i class="fas fa-caret-right"></i> F.A.Qs</a>
               <a href="#"><i class="fas fa-caret-right"></i> Privacy Policy</a>
@@ -379,7 +212,6 @@
 
     <!---------- Javascript Links ------------->
     <script src="js/common.js"></script>
-    <script src="js/product_list.js"></script>
     <script>
         window.onload=geolocation();
     </script>
