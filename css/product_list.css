@@ -117,6 +117,9 @@
 }
 
 .productCardSm .card .card-footer .viewBtn {
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
     width: 49%;
     height: 100%;
     border: 0;

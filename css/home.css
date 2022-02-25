@@ -8,6 +8,7 @@
 .banners{
     height: 350px;
     width: 100%;
+    object-fit: fill;
     cursor:pointer;
 }
 
